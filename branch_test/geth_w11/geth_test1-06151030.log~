@@ -1,0 +1,352 @@
+DEBUG[06-15|10:40:19.084] Sanitizing Go's GC trigger               percent=100
+INFO [06-15|10:40:19.085] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [06-15|10:40:19.085] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+DEBUG[06-15|10:40:19.085] FS scan times                            list=37.515µs set=533ns diff=611ns
+TRACE[06-15|10:40:19.085] Started watching keystore folder         path=/home/zc/geth_test1/gethdata/keystore
+INFO [06-15|10:40:19.087] Starting peer-to-peer node               instance=Geth/MyEth/v1.9.12-stable-5400f661/linux-amd64/go1.13.9
+INFO [06-15|10:40:19.087] Allocated trie memory caches             clean=256.00MiB dirty=256.00MiB
+INFO [06-15|10:40:19.087] Allocated gtrie memory caches            clean=512.00MiB dirty=512.00MiB
+INFO [06-15|10:40:19.087] Allocated cache and file handles         database=/home/zc/geth_test1/gethdata/geth/chaindata cache=1024.00MiB handles=2048
+DEBUG[06-15|10:40:19.137] Chain freezer table opened               database=/home/zc/geth_test1/gethdata/geth/chaindata/ancient table=headers items=0 size=0.00B
+DEBUG[06-15|10:40:19.148] Chain freezer table opened               database=/home/zc/geth_test1/gethdata/geth/chaindata/ancient table=hashes  items=0 size=0.00B
+DEBUG[06-15|10:40:19.159] Chain freezer table opened               database=/home/zc/geth_test1/gethdata/geth/chaindata/ancient table=bodies  items=0 size=0.00B
+DEBUG[06-15|10:40:19.170] Chain freezer table opened               database=/home/zc/geth_test1/gethdata/geth/chaindata/ancient table=receipts items=0 size=0.00B
+DEBUG[06-15|10:40:19.181] Chain freezer table opened               database=/home/zc/geth_test1/gethdata/geth/chaindata/ancient table=diffs    items=0 size=0.00B
+INFO [06-15|10:40:19.181] Opened ancient database                  database=/home/zc/geth_test1/gethdata/geth/chaindata/ancient
+DEBUG[06-15|10:40:19.181] Current full block not old enough        number=0 hash=68b721…4e12dc delay=90000
+INFO [06-15|10:40:19.181] Initialised chain configuration          config="{ChainID: 91036 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: <nil>, Muir Glacier: <nil>, Engine: unknown}"
+INFO [06-15|10:40:19.181] Disk storage enabled for ethash caches   dir=/home/zc/geth_test1/gethdata/geth/ethash count=3
+INFO [06-15|10:40:19.181] Disk storage enabled for ethash DAGs     dir=/home/zc/.ethash                         count=2
+INFO [06-15|10:40:19.181] Initialising Ethereum protocol           versions="[65 64 63]" network=w dbversion=<nil>
+WARN [06-15|10:40:19.181] Upgrade blockchain database version      from=<nil> to=7
+INFO [06-15|10:40:19.182] Loaded most recent local header          number=0 hash=68b721…4e12dc td=131072 age=53y2mo2w
+INFO [06-15|10:40:19.182] Loaded most recent local full block      number=0 hash=68b721…4e12dc td=131072 age=53y2mo2w
+INFO [06-15|10:40:19.182] Loaded most recent local fast block      number=0 hash=68b721…4e12dc td=131072 age=53y2mo2w
+DEBUG[06-15|10:40:19.182] Reinjecting stale transactions           count=0
+INFO [06-15|10:40:19.182] Regenerated local transaction journal    transactions=0 accounts=0
+DEBUG[06-15|10:40:19.183] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[06-15|10:40:19.234] TCP listener up                          addr=[::]:30301
+DEBUG[06-15|10:40:19.234] Couldn't add port mapping                proto=tcp extport=30301 intport=30301 interface="UPnP or NAT-PMP" err="no UPnP or NAT-PMP router discovered"
+DEBUG[06-15|10:40:19.235] InProc registered                        namespace=admin
+DEBUG[06-15|10:40:19.235] InProc registered                        namespace=admin
+DEBUG[06-15|10:40:19.235] InProc registered                        namespace=debug
+DEBUG[06-15|10:40:19.235] InProc registered                        namespace=web3
+DEBUG[06-15|10:40:19.235] InProc registered                        namespace=eth
+DEBUG[06-15|10:40:19.235] InProc registered                        namespace=eth
+INFO [06-15|10:40:19.235] New local node record                    seq=1 id=bdfceac02b70144f ip=127.0.0.1 udp=0 tcp=30301
+DEBUG[06-15|10:40:19.235] InProc registered                        namespace=eth
+INFO [06-15|10:40:19.235] Started P2P networking                   self="enode://93ba006cd61bd11c348c9d7d1cfd2d0737dd84c8b5cd6dbe38e2b69d0ffb8fd3a4a7f46923381079d828e901aa949776a2306d1a6908ce23ff0213cb574c8447@127.0.0.1:30301?discport=0"
+DEBUG[06-15|10:40:19.235] InProc registered                        namespace=txpool
+DEBUG[06-15|10:40:19.235] InProc registered                        namespace=debug
+DEBUG[06-15|10:40:19.235] InProc registered                        namespace=debug
+DEBUG[06-15|10:40:19.235] InProc registered                        namespace=eth
+DEBUG[06-15|10:40:19.235] InProc registered                        namespace=personal
+DEBUG[06-15|10:40:19.235] InProc registered                        namespace=eth
+DEBUG[06-15|10:40:19.235] InProc registered                        namespace=ethash
+DEBUG[06-15|10:40:19.235] InProc registered                        namespace=eth
+DEBUG[06-15|10:40:19.235] InProc registered                        namespace=eth
+DEBUG[06-15|10:40:19.235] InProc registered                        namespace=eth
+DEBUG[06-15|10:40:19.235] InProc registered                        namespace=miner
+DEBUG[06-15|10:40:19.235] InProc registered                        namespace=eth
+DEBUG[06-15|10:40:19.235] InProc registered                        namespace=admin
+DEBUG[06-15|10:40:19.235] InProc registered                        namespace=debug
+DEBUG[06-15|10:40:19.235] InProc registered                        namespace=debug
+DEBUG[06-15|10:40:19.235] InProc registered                        namespace=net
+DEBUG[06-15|10:40:19.235] IPC registered                           namespace=admin
+DEBUG[06-15|10:40:19.235] IPC registered                           namespace=admin
+DEBUG[06-15|10:40:19.235] IPC registered                           namespace=debug
+DEBUG[06-15|10:40:19.235] IPC registered                           namespace=web3
+DEBUG[06-15|10:40:19.235] IPC registered                           namespace=eth
+DEBUG[06-15|10:40:19.235] IPC registered                           namespace=eth
+DEBUG[06-15|10:40:19.235] IPC registered                           namespace=eth
+DEBUG[06-15|10:40:19.235] IPC registered                           namespace=txpool
+DEBUG[06-15|10:40:19.235] IPC registered                           namespace=debug
+DEBUG[06-15|10:40:19.235] IPC registered                           namespace=debug
+DEBUG[06-15|10:40:19.235] IPC registered                           namespace=eth
+DEBUG[06-15|10:40:19.236] IPC registered                           namespace=personal
+DEBUG[06-15|10:40:19.236] IPC registered                           namespace=eth
+DEBUG[06-15|10:40:19.236] IPC registered                           namespace=ethash
+DEBUG[06-15|10:40:19.236] IPC registered                           namespace=eth
+DEBUG[06-15|10:40:19.236] IPC registered                           namespace=eth
+DEBUG[06-15|10:40:19.236] IPC registered                           namespace=eth
+DEBUG[06-15|10:40:19.236] IPC registered                           namespace=miner
+DEBUG[06-15|10:40:19.236] IPC registered                           namespace=eth
+DEBUG[06-15|10:40:19.236] IPC registered                           namespace=admin
+DEBUG[06-15|10:40:19.236] IPC registered                           namespace=debug
+DEBUG[06-15|10:40:19.236] IPC registered                           namespace=debug
+DEBUG[06-15|10:40:19.236] IPC registered                           namespace=net
+INFO [06-15|10:40:19.236] IPC endpoint opened                      url=/home/zc/geth_test1/gethdata/geth.ipc
+DEBUG[06-15|10:40:19.236] HTTP registered                          namespace=web3
+DEBUG[06-15|10:40:19.236] HTTP registered                          namespace=eth
+DEBUG[06-15|10:40:19.236] HTTP registered                          namespace=eth
+DEBUG[06-15|10:40:19.236] HTTP registered                          namespace=eth
+DEBUG[06-15|10:40:19.236] HTTP registered                          namespace=eth
+DEBUG[06-15|10:40:19.236] HTTP registered                          namespace=personal
+DEBUG[06-15|10:40:19.236] HTTP registered                          namespace=eth
+DEBUG[06-15|10:40:19.236] HTTP registered                          namespace=eth
+DEBUG[06-15|10:40:19.236] HTTP registered                          namespace=eth
+DEBUG[06-15|10:40:19.236] HTTP registered                          namespace=eth
+DEBUG[06-15|10:40:19.236] HTTP registered                          namespace=miner
+DEBUG[06-15|10:40:19.236] HTTP registered                          namespace=eth
+DEBUG[06-15|10:40:19.236] HTTP registered                          namespace=net
+INFO [06-15|10:40:19.236] HTTP endpoint opened                     url=http://127.0.0.1:8541                 cors=* vhosts=localhost
+DEBUG[06-15|10:40:19.271] Served rpc_modules                       reqid=1 t=39.236µs
+TRACE[06-15|10:40:19.271] Handled RPC response                     reqid=1 t=609ns
+DEBUG[06-15|10:40:19.273] Served web3_clientVersion                reqid=2 t=22.164µs
+TRACE[06-15|10:40:19.273] Handled RPC response                     reqid=2 t=462ns
+WARN [06-15|10:40:19.273] Served eth_coinbase                      reqid=3 t=21.985µs err="etherbase must be explicitly specified"
+TRACE[06-15|10:40:19.273] Handled RPC response                     reqid=3 t=380ns
+DEBUG[06-15|10:40:19.273] Served eth_blockNumber                   reqid=4 t=41.477µs
+TRACE[06-15|10:40:19.273] Handled RPC response                     reqid=4 t=338ns
+DEBUG[06-15|10:40:19.273] Served eth_blockNumber                   reqid=5 t=23.034µs
+TRACE[06-15|10:40:19.273] Handled RPC response                     reqid=5 t=426ns
+DEBUG[06-15|10:40:19.274] Served eth_getBlockByNumber              reqid=6 t=151.369µs
+TRACE[06-15|10:40:19.274] Handled RPC response                     reqid=6 t=592ns
+DEBUG[06-15|10:40:19.274] Served admin_datadir                     reqid=7 t=20.72µs
+TRACE[06-15|10:40:19.274] Handled RPC response                     reqid=7 t=427ns
+DEBUG[06-15|10:40:19.274] Served rpc_modules                       reqid=8 t=19.082µs
+TRACE[06-15|10:40:19.274] Handled RPC response                     reqid=8 t=602ns
+TRACE[06-15|10:40:26.216] Ignoring file on account scan            path=/home/zc/geth_test1/gethdata/keystore/.UTC--2022-06-15T02-40-25.095314711Z--21a8ec1e6dbfec9ab08b1de1872ca2d409147867.tmp145270550
+DEBUG[06-15|10:40:26.216] FS scan times                            list=84.302µs set=86.845µs diff=919ns
+INFO [06-15|10:40:26.328] Your new key was generated               address=0x21A8Ec1E6dBFeC9aB08B1De1872Ca2d409147867
+WARN [06-15|10:40:26.328] Please backup your key file!             path=/home/zc/geth_test1/gethdata/keystore/UTC--2022-06-15T02-40-25.095314711Z--21a8ec1e6dbfec9ab08b1de1872ca2d409147867
+WARN [06-15|10:40:26.328] Please remember your password! 
+DEBUG[06-15|10:40:26.328] Served personal_newAccount               reqid=9 t=1.233814209s
+TRACE[06-15|10:40:26.328] Handled RPC response                     reqid=9 t=1.118µs
+DEBUG[06-15|10:40:26.716] Served eth_accounts                      reqid=10 t=40.738µs
+TRACE[06-15|10:40:26.716] Handled RPC response                     reqid=10 t=771ns
+DEBUG[06-15|10:40:26.716] Served eth_setBranchBlock                reqid=11 t=227.84µs
+TRACE[06-15|10:40:26.716] Handled RPC response                     reqid=11 t=575ns
+DEBUG[06-15|10:40:26.828] FS scan times                            list=60.083µs set=4.434µs  diff=2.042µs
+TRACE[06-15|10:40:26.828] Handled keystore changes                 time=51.889µs
+DEBUG[06-15|10:40:39.183] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[06-15|10:40:59.183] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[06-15|10:40:59.708] Accepted connection                      addr=127.0.0.1:57410
+DEBUG[06-15|10:40:59.733] Adding p2p peer                          peercount=1 id=8eaaaea70f3cb963 conn=inbound addr=127.0.0.1:57410 name=Geth/MyEth/v1.9.12-s...
+TRACE[06-15|10:40:59.733] Starting protocol eth/65                 id=8eaaaea70f3cb963 conn=inbound
+INFO [06-15|10:40:59.733] Looking for peers                        peercount=1 tried=0 static=0
+DEBUG[06-15|10:40:59.733] Ethereum peer connected                  id=8eaaaea70f3cb963 conn=inbound name=Geth/MyEth/v1.9.12-stable-5400f661/linux-amd64/go1.13.9
+TRACE[06-15|10:40:59.733] Registering sync peer                    peer=8eaaaea70f3cb963
+INFO [06-15|10:41:09.235] Block synchronisation started 
+DEBUG[06-15|10:41:09.235] Synchronising with the network           peer=8eaaaea70f3cb963 eth=65 head=68b721…4e12dc td=131072 mode=branch
+DEBUG[06-15|10:41:09.235] Retrieving remote chain height           peer=8eaaaea70f3cb963
+DEBUG[06-15|10:41:09.235] Fetching batch of headers                id=8eaaaea70f3cb963 conn=inbound count=1 fromhash=68b721…4e12dc skip=0 reverse=false
+TRACE[06-15|10:41:09.236] Filtering headers                        peer=8eaaaea70f3cb963 headers=1
+DEBUG[06-15|10:41:09.236] before DeliverHeaders                    regionid=0 number=0
+DEBUG[06-15|10:41:09.236] Remote head header identified            peer=8eaaaea70f3cb963 number=0 hash=68b721…4e12dc
+DEBUG[06-15|10:41:09.236] Synchronisation terminated               elapsed=1.058ms
+DEBUG[06-15|10:41:09.236] Reset ancient limit to zero 
+TRACE[06-15|10:41:09.236] Announced block                          hash=00b027…24b789 recipients=1 duration=2562047h47m16.854s
+TRACE[06-15|10:41:09.236] Propagated block                         hash=00b027…24b789 recipients=0 duration=2562047h47m16.854s
+TRACE[06-15|10:41:09.236] Announced block                          id=8eaaaea70f3cb963 conn=inbound number=1 hash=00b027…24b789
+DEBUG[06-15|10:41:17.828] Queued propagated block                  peer=8eaaaea70f3cb963 number=2 hash=7e8f8c…2b31ea queued=1
+DEBUG[06-15|10:41:17.828] Importing propagated block               peer=8eaaaea70f3cb963 number=2 hash=7e8f8c…2b31ea
+TRACE[06-15|10:41:17.829] Requiring new ethash cache               epoch=0
+TRACE[06-15|10:41:17.829] Requiring new future ethash cache        epoch=1
+DEBUG[06-15|10:41:17.829] Failed to load old ethash cache          epoch=0 err="open /home/zc/geth_test1/gethdata/geth/ethash/cache-R23-0000000000000000: no such file or directory"
+TRACE[06-15|10:41:18.329] Fetching scheduled headers               peer=8eaaaea70f3cb963 list="[[126 143 140 226 230 65 177 169 213 167 238 68 234 110 166 48 168 134 250 39 2 95 214 58 1 190 118 97 15 43 49 234]]"
+DEBUG[06-15|10:41:18.329] Fetching single header                   id=8eaaaea70f3cb963 conn=inbound hash=7e8f8c…2b31ea
+TRACE[06-15|10:41:18.329] Filtering headers                        peer=8eaaaea70f3cb963 headers=1
+DEBUG[06-15|10:41:18.329] before DeliverHeaders                    regionid=0 number=2
+DEBUG[06-15|10:41:18.329] Failed to deliver headers                err="no sync active"
+DEBUG[06-15|10:41:18.385] Generated ethash verification cache      epoch=0 elapsed=556.152ms
+DEBUG[06-15|10:41:18.386] Failed to load old ethash cache          epoch=1 err="open /home/zc/geth_test1/gethdata/geth/ethash/cache-R23-290decd9548b62a8: no such file or directory"
+TRACE[06-15|10:41:18.389] Propagated block                         hash=7e8f8c…2b31ea recipients=0 duration=560.961ms
+DEBUG[06-15|10:41:18.392] Inserted new block                       number=2 hash=7e8f8c…2b31ea uncles=0 txs=0 gas=0 elapsed=185.943µs root=c4fe61…e0d8e4 regionroot=4caf93…2d0509
+INFO [06-15|10:41:18.392] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=3.219ms   mgasps=0.000 number=2 regionid="[119 50]" hash=7e8f8c…2b31ea age=53y2mo2w dirty=486.00B   rdirty=0.00B
+DEBUG[06-15|10:41:18.393] Reinjecting stale transactions           count=0
+TRACE[06-15|10:41:18.393] Announced block                          hash=7e8f8c…2b31ea recipients=0 duration=564.279ms
+DEBUG[06-15|10:41:18.932] Generated ethash verification cache      epoch=1 elapsed=546.054ms
+DEBUG[06-15|10:41:19.182] Current full block not old enough        number=2 hash=7e8f8c…2b31ea delay=90000
+DEBUG[06-15|10:41:19.183] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[06-15|10:41:19.235] Synchronising with the network           peer=8eaaaea70f3cb963 eth=65 head=00b027…24b789 td=262144 mode=branch
+DEBUG[06-15|10:41:19.235] Retrieving remote chain height           peer=8eaaaea70f3cb963
+DEBUG[06-15|10:41:19.235] Fetching batch of headers                id=8eaaaea70f3cb963 conn=inbound count=1 fromhash=00b027…24b789 skip=0 reverse=false
+TRACE[06-15|10:41:19.235] Filtering headers                        peer=8eaaaea70f3cb963 headers=1
+DEBUG[06-15|10:41:19.235] before DeliverHeaders                    regionid=0          number=1
+DEBUG[06-15|10:41:19.235] Remote head header identified            peer=8eaaaea70f3cb963 number=1 hash=00b027…24b789
+DEBUG[06-15|10:41:19.235] Looking for common ancestor              peer=8eaaaea70f3cb963 local=1 remote=1
+TRACE[06-15|10:41:19.235] Span searching for common ancestor       peer=8eaaaea70f3cb963 count=2 from=0     skip=1
+DEBUG[06-15|10:41:19.235] Fetching batch of headers                id=8eaaaea70f3cb963 conn=inbound count=2 fromnum=0 skip=1 reverse=false
+DEBUG[06-15|10:41:19.235] before DeliverHeaders                    regionid=0          number=0
+DEBUG[06-15|10:41:19.236] before DeliverHeaders                    regionid=1          number=2
+DEBUG[06-15|10:41:19.236] Found common ancestor                    peer=8eaaaea70f3cb963 number=2 hash=7e8f8c…2b31ea
+DEBUG[06-15|10:41:19.236] Directing header downloads               peer=8eaaaea70f3cb963 origin=3
+TRACE[06-15|10:41:19.236] Fetching skeleton headers                peer=8eaaaea70f3cb963 count=192 from=3
+DEBUG[06-15|10:41:19.236] Fetching batch of headers                id=8eaaaea70f3cb963 conn=inbound count=128 fromnum=194 skip=191 reverse=false
+TRACE[06-15|10:41:19.236] Fetching full headers                    peer=8eaaaea70f3cb963 count=192 from=3
+DEBUG[06-15|10:41:19.236] Fetching batch of headers                id=8eaaaea70f3cb963 conn=inbound count=192 fromnum=3   skip=0   reverse=false
+DEBUG[06-15|10:41:19.236] No headers, waiting for pivot commit     peer=8eaaaea70f3cb963
+TRACE[06-15|10:41:22.236] Fetching full headers                    peer=8eaaaea70f3cb963 count=192 from=3
+DEBUG[06-15|10:41:22.236] Fetching batch of headers                id=8eaaaea70f3cb963 conn=inbound count=192 fromnum=3   skip=0   reverse=false
+DEBUG[06-15|10:41:22.236] No headers, waiting for pivot commit     peer=8eaaaea70f3cb963
+DEBUG[06-15|10:41:22.660] Served eth_blockNumber                   reqid=12 t=20.191µs
+TRACE[06-15|10:41:22.660] Handled RPC response                     reqid=12 t=628ns
+TRACE[06-15|10:41:25.236] Fetching full headers                    peer=8eaaaea70f3cb963 count=192 from=3
+DEBUG[06-15|10:41:25.237] Fetching batch of headers                id=8eaaaea70f3cb963 conn=inbound count=192 fromnum=3   skip=0   reverse=false
+DEBUG[06-15|10:41:25.237] No headers, waiting for pivot commit     peer=8eaaaea70f3cb963
+TRACE[06-15|10:41:28.237] Fetching full headers                    peer=8eaaaea70f3cb963 count=192 from=3
+DEBUG[06-15|10:41:28.237] Fetching batch of headers                id=8eaaaea70f3cb963 conn=inbound count=192 fromnum=3   skip=0   reverse=false
+DEBUG[06-15|10:41:28.237] No headers, waiting for pivot commit     peer=8eaaaea70f3cb963
+TRACE[06-15|10:41:31.238] Fetching full headers                    peer=8eaaaea70f3cb963 count=192 from=3
+DEBUG[06-15|10:41:31.238] Fetching batch of headers                id=8eaaaea70f3cb963 conn=inbound count=192 fromnum=3   skip=0   reverse=false
+DEBUG[06-15|10:41:31.238] No headers, waiting for pivot commit     peer=8eaaaea70f3cb963
+DEBUG[06-15|10:41:33.999] Queued propagated block                  peer=8eaaaea70f3cb963 number=3 hash=49a1a9…daa363 queued=1
+DEBUG[06-15|10:41:33.999] Importing propagated block               peer=8eaaaea70f3cb963 number=3 hash=49a1a9…daa363
+TRACE[06-15|10:41:34.003] Propagated block                         hash=49a1a9…daa363 recipients=0 duration=3.445ms
+DEBUG[06-15|10:41:34.006] Inserted new block                       number=3 hash=49a1a9…daa363 uncles=0 txs=0 gas=0 elapsed=225.721µs root=a2ab75…3a193c regionroot=4caf93…2d0509
+INFO [06-15|10:41:34.006] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=3.340ms   mgasps=0.000 number=3 regionid="[119 50]" hash=49a1a9…daa363 dirty=486.00B   rdirty=0.00B
+DEBUG[06-15|10:41:34.006] Reinjecting stale transactions           count=0
+TRACE[06-15|10:41:34.006] Announced block                          hash=49a1a9…daa363 recipients=0 duration=6.802ms
+TRACE[06-15|10:41:34.238] Fetching full headers                    peer=8eaaaea70f3cb963 count=192 from=3
+DEBUG[06-15|10:41:34.238] Fetching batch of headers                id=8eaaaea70f3cb963 conn=inbound count=192 fromnum=3   skip=0   reverse=false
+TRACE[06-15|10:41:34.239] Filtering headers                        peer=8eaaaea70f3cb963 headers=1
+DEBUG[06-15|10:41:34.239] before DeliverHeaders                    regionid=0          number=3
+TRACE[06-15|10:41:34.239] Scheduling new headers                   peer=8eaaaea70f3cb963 count=1   from=3
+TRACE[06-15|10:41:34.239] Fetching full headers                    peer=8eaaaea70f3cb963 count=192 from=4
+DEBUG[06-15|10:41:34.239] Fetching batch of headers                id=8eaaaea70f3cb963 conn=inbound count=192 fromnum=4   skip=0   reverse=false
+DEBUG[06-15|10:41:34.239] No headers, waiting for pivot commit     peer=8eaaaea70f3cb963
+TRACE[06-15|10:41:37.239] Fetching full headers                    peer=8eaaaea70f3cb963 count=192 from=4
+DEBUG[06-15|10:41:37.239] Fetching batch of headers                id=8eaaaea70f3cb963 conn=inbound count=192 fromnum=4   skip=0   reverse=false
+DEBUG[06-15|10:41:37.239] No headers, waiting for pivot commit     peer=8eaaaea70f3cb963
+DEBUG[06-15|10:41:39.183] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[06-15|10:41:39.891] Queued propagated block                  peer=8eaaaea70f3cb963 number=4 hash=667d70…937a81 queued=1
+DEBUG[06-15|10:41:39.891] Importing propagated block               peer=8eaaaea70f3cb963 number=4 hash=667d70…937a81
+DEBUG[06-15|10:41:39.897] Inserted new block                       number=4 hash=667d70…937a81 uncles=0 txs=0 gas=0 elapsed=210.824µs root=e89330…4c7f10 regionroot=4caf93…2d0509
+INFO [06-15|10:41:39.897] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=3.128ms   mgasps=0.000 number=4 regionid="[119 50]" hash=667d70…937a81 dirty=972.00B   rdirty=0.00B
+TRACE[06-15|10:41:39.897] Announced block                          hash=667d70…937a81 recipients=0 duration=6.529ms
+DEBUG[06-15|10:41:39.897] Reinjecting stale transactions           count=0
+TRACE[06-15|10:41:39.897] Propagated block                         hash=667d70…937a81 recipients=0 duration=6.595ms
+TRACE[06-15|10:41:40.240] Fetching full headers                    peer=8eaaaea70f3cb963 count=192 from=4
+DEBUG[06-15|10:41:40.240] Fetching batch of headers                id=8eaaaea70f3cb963 conn=inbound count=192 fromnum=4   skip=0   reverse=false
+TRACE[06-15|10:41:40.240] Filtering headers                        peer=8eaaaea70f3cb963 headers=1
+DEBUG[06-15|10:41:40.240] before DeliverHeaders                    regionid=0          number=4
+TRACE[06-15|10:41:40.240] Scheduling new headers                   peer=8eaaaea70f3cb963 count=1   from=4
+TRACE[06-15|10:41:40.240] Fetching full headers                    peer=8eaaaea70f3cb963 count=192 from=5
+DEBUG[06-15|10:41:40.240] Fetching batch of headers                id=8eaaaea70f3cb963 conn=inbound count=192 fromnum=5   skip=0   reverse=false
+DEBUG[06-15|10:41:40.240] No headers, waiting for pivot commit     peer=8eaaaea70f3cb963
+DEBUG[06-15|10:41:43.178] Queued propagated block                  peer=8eaaaea70f3cb963 number=5 hash=9b0450…fbe800 queued=1
+DEBUG[06-15|10:41:43.178] Importing propagated block               peer=8eaaaea70f3cb963 number=5 hash=9b0450…fbe800
+TRACE[06-15|10:41:43.181] Propagated block                         hash=9b0450…fbe800 recipients=0 duration=3.344ms
+DEBUG[06-15|10:41:43.184] Inserted new block                       number=5 hash=9b0450…fbe800 uncles=0 txs=0 gas=0 elapsed=260.284µs root=44f8a7…959aa2 regionroot=4caf93…2d0509
+INFO [06-15|10:41:43.184] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=3.103ms   mgasps=0.000 number=5 regionid="[119 50]" hash=9b0450…fbe800 dirty=1.42KiB   rdirty=0.00B
+TRACE[06-15|10:41:43.184] Announced block                          hash=9b0450…fbe800 recipients=0 duration=6.518ms
+DEBUG[06-15|10:41:43.184] Reinjecting stale transactions           count=0
+TRACE[06-15|10:41:43.240] Fetching full headers                    peer=8eaaaea70f3cb963 count=192 from=5
+DEBUG[06-15|10:41:43.240] Fetching batch of headers                id=8eaaaea70f3cb963 conn=inbound count=192 fromnum=5   skip=0   reverse=false
+TRACE[06-15|10:41:43.241] Filtering headers                        peer=8eaaaea70f3cb963 headers=1
+DEBUG[06-15|10:41:43.241] before DeliverHeaders                    regionid=0          number=5
+TRACE[06-15|10:41:43.241] Scheduling new headers                   peer=8eaaaea70f3cb963 count=1   from=5
+TRACE[06-15|10:41:43.241] Fetching full headers                    peer=8eaaaea70f3cb963 count=192 from=6
+DEBUG[06-15|10:41:43.241] Fetching batch of headers                id=8eaaaea70f3cb963 conn=inbound count=192 fromnum=6   skip=0   reverse=false
+DEBUG[06-15|10:41:43.241] No headers, waiting for pivot commit     peer=8eaaaea70f3cb963
+TRACE[06-15|10:41:46.241] Fetching full headers                    peer=8eaaaea70f3cb963 count=192 from=6
+DEBUG[06-15|10:41:46.241] Fetching batch of headers                id=8eaaaea70f3cb963 conn=inbound count=192 fromnum=6   skip=0   reverse=false
+DEBUG[06-15|10:41:46.242] No headers, waiting for pivot commit     peer=8eaaaea70f3cb963
+DEBUG[06-15|10:41:47.066] Queued propagated block                  peer=8eaaaea70f3cb963 number=6 hash=e2f4fc…bb1585 queued=1
+DEBUG[06-15|10:41:47.066] Importing propagated block               peer=8eaaaea70f3cb963 number=6 hash=e2f4fc…bb1585
+TRACE[06-15|10:41:47.069] Propagated block                         hash=e2f4fc…bb1585 recipients=0 duration=3.397ms
+DEBUG[06-15|10:41:47.072] Inserted new block                       number=6 hash=e2f4fc…bb1585 uncles=0 txs=0 gas=0 elapsed=240.306µs root=62a3a9…1072fe regionroot=4caf93…2d0509
+INFO [06-15|10:41:47.072] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=3.101ms   mgasps=0.000 number=6 regionid="[119 50]" hash=e2f4fc…bb1585 dirty=1.90KiB   rdirty=0.00B
+DEBUG[06-15|10:41:47.072] Reinjecting stale transactions           count=0
+TRACE[06-15|10:41:47.072] Announced block                          hash=e2f4fc…bb1585 recipients=0 duration=6.638ms
+TRACE[06-15|10:41:49.242] Fetching full headers                    peer=8eaaaea70f3cb963 count=192 from=6
+DEBUG[06-15|10:41:49.242] Fetching batch of headers                id=8eaaaea70f3cb963 conn=inbound count=192 fromnum=6   skip=0   reverse=false
+TRACE[06-15|10:41:49.243] Filtering headers                        peer=8eaaaea70f3cb963 headers=1
+DEBUG[06-15|10:41:49.243] before DeliverHeaders                    regionid=0          number=6
+TRACE[06-15|10:41:49.243] Scheduling new headers                   peer=8eaaaea70f3cb963 count=1   from=6
+TRACE[06-15|10:41:49.243] Fetching full headers                    peer=8eaaaea70f3cb963 count=192 from=7
+DEBUG[06-15|10:41:49.243] Fetching batch of headers                id=8eaaaea70f3cb963 conn=inbound count=192 fromnum=7   skip=0   reverse=false
+DEBUG[06-15|10:41:49.243] No headers, waiting for pivot commit     peer=8eaaaea70f3cb963
+TRACE[06-15|10:41:52.244] Fetching full headers                    peer=8eaaaea70f3cb963 count=192 from=7
+DEBUG[06-15|10:41:52.244] Fetching batch of headers                id=8eaaaea70f3cb963 conn=inbound count=192 fromnum=7   skip=0   reverse=false
+DEBUG[06-15|10:41:52.245] No headers, waiting for pivot commit     peer=8eaaaea70f3cb963
+TRACE[06-15|10:41:55.245] Fetching full headers                    peer=8eaaaea70f3cb963 count=192 from=7
+DEBUG[06-15|10:41:55.245] Fetching batch of headers                id=8eaaaea70f3cb963 conn=inbound count=192 fromnum=7   skip=0   reverse=false
+DEBUG[06-15|10:41:55.245] No headers, waiting for pivot commit     peer=8eaaaea70f3cb963
+TRACE[06-15|10:41:58.245] Fetching full headers                    peer=8eaaaea70f3cb963 count=192 from=7
+DEBUG[06-15|10:41:58.245] Fetching batch of headers                id=8eaaaea70f3cb963 conn=inbound count=192 fromnum=7   skip=0   reverse=false
+DEBUG[06-15|10:41:58.246] No headers, waiting for pivot commit     peer=8eaaaea70f3cb963
+DEBUG[06-15|10:41:59.183] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+
+DEBUG[06-15|10:42:01.204] Served eth_blockNumber                   reqid=13 t=32.476µs
+TRACE[06-15|10:42:01.204] Handled RPC response                     reqid=13 t=752ns
+TRACE[06-15|10:42:01.246] Fetching full headers                    peer=8eaaaea70f3cb963 count=192 from=7
+DEBUG[06-15|10:42:01.246] Fetching batch of headers                id=8eaaaea70f3cb963 conn=inbound count=192 fromnum=7   skip=0   reverse=false
+DEBUG[06-15|10:42:01.246] No headers, waiting for pivot commit     peer=8eaaaea70f3cb963
+TRACE[06-15|10:42:04.246] Fetching full headers                    peer=8eaaaea70f3cb963 count=192 from=7
+DEBUG[06-15|10:42:04.246] Fetching batch of headers                id=8eaaaea70f3cb963 conn=inbound count=192 fromnum=7   skip=0   reverse=false
+DEBUG[06-15|10:42:04.247] No headers, waiting for pivot commit     peer=8eaaaea70f3cb963
+TRACE[06-15|10:42:07.247] Fetching full headers                    peer=8eaaaea70f3cb963 count=192 from=7
+DEBUG[06-15|10:42:07.247] Fetching batch of headers                id=8eaaaea70f3cb963 conn=inbound count=192 fromnum=7   skip=0   reverse=false
+DEBUG[06-15|10:42:07.247] No headers, waiting for pivot commit     peer=8eaaaea70f3cb963
+TRACE[06-15|10:42:10.247] Fetching full headers                    peer=8eaaaea70f3cb963 count=192 from=7
+DEBUG[06-15|10:42:10.248] Fetching batch of headers                id=8eaaaea70f3cb963 conn=inbound count=192 fromnum=7   skip=0   reverse=false
+DEBUG[06-15|10:42:10.248] No headers, waiting for pivot commit     peer=8eaaaea70f3cb963
+TRACE[06-15|10:42:13.248] Fetching full headers                    peer=8eaaaea70f3cb963 count=192 from=7
+DEBUG[06-15|10:42:13.248] Fetching batch of headers                id=8eaaaea70f3cb963 conn=inbound count=192 fromnum=7   skip=0   reverse=false
+DEBUG[06-15|10:42:13.248] No headers, waiting for pivot commit     peer=8eaaaea70f3cb963
+DEBUG[06-15|10:42:13.668] Ethereum message handling failed         id=8eaaaea70f3cb963 conn=inbound err=EOF
+DEBUG[06-15|10:42:13.668] Removing Ethereum peer                   peer=8eaaaea70f3cb963
+TRACE[06-15|10:42:13.668] Unregistering sync peer                  peer=8eaaaea70f3cb963
+DEBUG[06-15|10:42:13.668] Removing p2p peer                        peercount=0 id=8eaaaea70f3cb963 duration=1m13.935s          req=true err="disconnect requested"
+INFO [06-15|10:42:13.668] Looking for peers                        peercount=0 tried=0 static=0
+TRACE[06-15|10:42:16.249] Fetching full headers                    peer=8eaaaea70f3cb963 count=192 from=7
+DEBUG[06-15|10:42:16.249] Fetching batch of headers                id=8eaaaea70f3cb963 conn=inbound count=192 fromnum=7   skip=0   reverse=false
+DEBUG[06-15|10:42:19.182] Current full block not old enough        number=6 hash=e2f4fc…bb1585 delay=90000
+DEBUG[06-15|10:42:19.184] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[06-15|10:42:30.540] Accepted connection                      addr=127.0.0.1:57412
+DEBUG[06-15|10:42:30.542] Adding p2p peer                          peercount=1 id=8eaaaea70f3cb963 conn=inbound addr=127.0.0.1:57412 name=Geth/MyEth/v1.9.12-s...
+INFO [06-15|10:42:30.542] Looking for peers                        peercount=1 tried=0 static=0
+TRACE[06-15|10:42:30.542] Starting protocol eth/65                 id=8eaaaea70f3cb963 conn=inbound
+DEBUG[06-15|10:42:30.542] Ethereum peer connected                  id=8eaaaea70f3cb963 conn=inbound name=Geth/MyEth/v1.9.12-stable-5400f661/linux-amd64/go1.13.9
+TRACE[06-15|10:42:30.543] Registering sync peer                    peer=8eaaaea70f3cb963
+TRACE[06-15|10:42:38.248] Fetching scheduled headers               peer=8eaaaea70f3cb963 list="[[158 199 56 98 243 196 205 119 117 144 27 192 234 110 156 183 195 254 106 59 109 171 59 183 222 255 113 102 96 226 152 248]]"
+DEBUG[06-15|10:42:38.248] Fetching single header                   id=8eaaaea70f3cb963 conn=inbound hash=9ec738…e298f8
+TRACE[06-15|10:42:38.248] Filtering headers                        peer=8eaaaea70f3cb963 headers=1
+TRACE[06-15|10:42:38.249] Block empty, skipping body retrieval     peer=8eaaaea70f3cb963 number=10 hash=9ec738…e298f8
+DEBUG[06-15|10:42:38.249] Queued propagated block                  peer=8eaaaea70f3cb963 number=10 hash=9ec738…e298f8 queued=1
+DEBUG[06-15|10:42:39.184] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[06-15|10:42:59.184] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[06-15|10:43:02.588] Served eth_blockNumber                   reqid=14 t=22.53µs
+TRACE[06-15|10:43:02.588] Handled RPC response                     reqid=14 t=855ns
+INFO [06-15|10:43:04.564] HTTP endpoint closed                     url=http://127.0.0.1:8541
+DEBUG[06-15|10:43:04.565] RPC server shutting down 
+INFO [06-15|10:43:04.565] IPC endpoint closed                      url=/home/zc/geth_test1/gethdata/geth.ipc
+DEBUG[06-15|10:43:04.565] RPC server shutting down 
+INFO [06-15|10:43:04.565] Writing cached state to disk             block=6 hash=e2f4fc…bb1585 root=62a3a9…1072fe
+INFO [06-15|10:43:04.565] Persisted trie from memory database      nodes=2 size=294.00B time=151.765µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=7 livesize=882.00B
+INFO [06-15|10:43:04.565] Writing cached state to disk             block=5 hash=9b0450…fbe800 root=44f8a7…959aa2
+INFO [06-15|10:43:04.565] Persisted trie from memory database      nodes=2 size=294.00B time=52.506µs  gcnodes=0 gcsize=0.00B gctime=0s livenodes=5 livesize=588.00B
+DEBUG[06-15|10:43:04.565] Dereferenced trie from memory database   nodes=0 size=0.00B   time=3.544µs   gcnodes=0 gcsize=0.00B gctime=2.862µs livenodes=5 livesize=588.00B
+DEBUG[06-15|10:43:04.565] Dereferenced trie from memory database   nodes=2 size=294.00B time=7.252µs   gcnodes=2 gcsize=294.00B gctime=9.803µs livenodes=3 livesize=294.00B
+DEBUG[06-15|10:43:04.565] Dereferenced trie from memory database   nodes=2 size=294.00B time=5.748µs   gcnodes=4 gcsize=588.00B gctime=15.266µs livenodes=1 livesize=0.00B
+DEBUG[06-15|10:43:04.565] Dereferenced trie from memory database   nodes=0 size=0.00B   time=2.044µs   gcnodes=4 gcsize=588.00B gctime=17.015µs livenodes=1 livesize=0.00B
+DEBUG[06-15|10:43:04.565] Dereferenced trie from memory database   nodes=0 size=0.00B   time=2.26µs    gcnodes=4 gcsize=588.00B gctime=18.984µs livenodes=1 livesize=0.00B
+INFO [06-15|10:43:04.566] Writing cached regionstate to disk       block=6 hash=e2f4fc…bb1585 regionroot=4caf93…2d0509
+INFO [06-15|10:43:04.566] Persisted gtrie from memory database     nodes=0 size=0.00B   time=5.793µs   gcnodes=0 gcsize=0.00B   gctime=0s       livenodes=1 livesize=0.00B
+INFO [06-15|10:43:04.566] Writing cached regionstate to disk       block=5 hash=9b0450…fbe800 regionroot=4caf93…2d0509
+INFO [06-15|10:43:04.566] Persisted gtrie from memory database     nodes=0 size=0.00B   time=2.747µs   gcnodes=0 gcsize=0.00B   gctime=0s       livenodes=1 livesize=0.00B
+DEBUG[06-15|10:43:04.566] Dereferenced trie from memory database   nodes=0 size=0.00B   time=2.185µs   gcnodes=0 gcsize=0.00B   gctime=1.549µs  livenodes=1 livesize=0.00B
+DEBUG[06-15|10:43:04.566] Dereferenced trie from memory database   nodes=0 size=0.00B   time=957ns     gcnodes=0 gcsize=0.00B   gctime=2.221µs  livenodes=1 livesize=0.00B
+DEBUG[06-15|10:43:04.566] Dereferenced trie from memory database   nodes=0 size=0.00B   time=741ns     gcnodes=0 gcsize=0.00B   gctime=2.662µs  livenodes=1 livesize=0.00B
+DEBUG[06-15|10:43:04.566] Dereferenced trie from memory database   nodes=0 size=0.00B   time=747ns     gcnodes=0 gcsize=0.00B   gctime=3.113µs  livenodes=1 livesize=0.00B
+DEBUG[06-15|10:43:04.566] Dereferenced trie from memory database   nodes=0 size=0.00B   time=958ns     gcnodes=0 gcsize=0.00B   gctime=3.73µs   livenodes=1 livesize=0.00B
+INFO [06-15|10:43:04.566] Blockchain manager stopped 
+TRACE[06-15|10:43:04.566] Ethash remote sealer is exiting 
+INFO [06-15|10:43:04.566] Stopping Ethereum protocol 
+DEBUG[06-15|10:43:04.566] Header download terminated               peer=8eaaaea70f3cb963
+DEBUG[06-15|10:43:04.566] Reset ancient limit to zero 
+DEBUG[06-15|10:43:04.566] Ethereum message handling failed         id=8eaaaea70f3cb963 conn=inbound err=EOF
+DEBUG[06-15|10:43:04.566] Removing Ethereum peer                   peer=8eaaaea70f3cb963
+TRACE[06-15|10:43:04.566] Unregistering sync peer                  peer=8eaaaea70f3cb963
+DEBUG[06-15|10:43:04.566] Reset ancient limit to zero 
+DEBUG[06-15|10:43:04.566] Removing p2p peer                        peercount=0 id=8eaaaea70f3cb963 duration=34.024s            req=false err="client quitting"
+DEBUG[06-15|10:43:04.566] Synchronisation terminated               elapsed=1m45.331s
+DEBUG[06-15|10:43:04.567] Reset ancient limit to zero 
+INFO [06-15|10:43:04.567] Ethereum protocol stopped 
+INFO [06-15|10:43:04.567] Transaction pool stopped 
+INFO [06-15|10:43:04.567] Looking for peers                        peercount=0 tried=0 static=0
+DEBUG[06-15|10:43:04.567] Read error                               err="accept tcp [::]:30301: use of closed network connection"
+DEBUG[06-15|10:43:04.567] Deleting port mapping                    proto=tcp extport=30301 intport=30301 interface="UPnP or NAT-PMP"
+TRACE[06-15|10:43:04.567] P2P networking is spinning down 

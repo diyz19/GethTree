@@ -1,0 +1,308 @@
+ personal.newAccount("123")
+"0x7246fd88245dfe6c85570f2b6a3c370761745f70"
+> eth.setBranchBlock({from:eth.accounts[0],branchid:"w",settime:111})
+SetCurrentHeads==currentHeads--RegionId:w,Number:1,TD:<nil>==
+setbranchblock==branchblock.RegionId:w, branchblock.Number:1, branchblock.Td:262144,ptd:%!d(MISSING)==
+{
+  ReceivedAt: "0001-01-01T00:00:00Z",
+  ReceivedFrom: null
+}
+> ==handle-leafnode-number:0,td:131072==
+==handle==local-len(heads):1==
+==handle==v.Number:1,v.td:262144==
+==handle1--k:aaaaaaaaaaaaaw,v.Number:1,v.td:262144==
+==Handshake==p2p.Send==local Data--TD:131072,head:[104 183 33 239 89 159 174 56 58 125 14 245 2 193 217 107 203 241 35 22 42 52 176 100 216 223 229 206 113 78 18 220],TDs:[262144]==
+readStatus==remote.TDs:[],remote.NetworkID:w2,local.network:w
+eth64--remote-Syncmode:2,remote.Heads[aaaaaaaaaaaaw2]:[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0],remote.tds:<nil>,remote.Head:[104 183 33 239 89 159 174 56 58 125 14 245 2 193 217 107 203 241 35 22 42 52 176 100 216 223 229 206 113 78 18 220],remote.TD:131072
+synchronise--remote.networkID:w2, local.networkID:w==
+synchronise--2. local is branchnode,remote is leafnode--local:w,remote:w2
+synchronise--2.test-localBlock.RegionId:w, localBlock.Num:1,heads.Regionid:w,heads.Num:1==
+synchronise--2. localBlock.Num:1,td:262144==
+100--test remote head--hash:h�!�Y��8:}���k��#*4�d����qN�,pTd:131072
+**888--Synchronise--remoteregionid:aaaaaaaaaaaaw2**
+before syncWithPeer001==remoteregionid:aaaaaaaaaaaaw2==
+before syncWithPeer002==remoteregionid:aaaaaaaaaaaaw2==
+before syncWithPeer003==remoteregionid:aaaaaaaaaaaaw2==
+**syncWithPeer--localregionid:aaaaaaaaaaaaaw,remoteregionid:aaaaaaaaaaaaw2,local-whether-remoteHead:%!s(bool=true),len(rebranchblocks):0
+common block sync===d.mode:branch,remotemode:2
+common block sync===1.local is branchnode,remoteregionid:aaaaaaaaaaaaw2
+200--test peer head--pHead:[104 183 33 239 89 159 174 56 58 125 14 245 2 193 217 107 203 241 35 22 42 52 176 100 216 223 229 206 113 78 18 220],pTd:131072
+300--test RequestHeadersByHash==
+RequestHeadersByHash--eth-peer.go==count:1====
+handleMsg====
+400--test RequestHeadersByHash==
+500--test RequestHeadersByHash==
+600--test RequestHeadersByHash--head.Number:0, head.Hash:[104 183 33 239 89 159 174 56 58 125 14 245 2 193 217 107 203 241 35 22 42 52 176 100 216 223 229 206 113 78 18 220]==
+700--test RequestHeadersByHash--head.Number:0, head.Hash:[104 183 33 239 89 159 174 56 58 125 14 245 2 193 217 107 203 241 35 22 42 52 176 100 216 223 229 206 113 78 18 220]==
+common block sync===1--latest.RegionId:, latest.Number:0==
+BroadcastBranchBlock--len(heads):1
+BroadcastBranchBlock==inner2-propagate==block.RegionId:w,block.NumberU64:1==
+BroadcastBranchBlock==transfer.networkID:w2==
+AsyncSendNewBlock==queue to remote--block.regionid:w,blcok.number:1==
+SendNewBlock==propagate to remote--block.regionid:w,blcok.number:1==
+synchronise--remote.networkID:w2, local.networkID:w==
+synchronise--2. local is branchnode,remote is leafnode--local:w,remote:w2
+synchronise--2.test-localBlock.RegionId:w, localBlock.Num:1,heads.Regionid:w,heads.Num:1==
+synchronise--2. localBlock.Num:1,td:262144==
+100--test remote head--hash:h�!�Y��8:}���k��#*4�d����qN�,pTd:131072
+**888--Synchronise--remoteregionid:aaaaaaaaaaaaw2**
+before syncWithPeer001==remoteregionid:aaaaaaaaaaaaw2==
+before syncWithPeer002==remoteregionid:aaaaaaaaaaaaw2==
+before syncWithPeer003==remoteregionid:aaaaaaaaaaaaw2==
+**syncWithPeer--localregionid:aaaaaaaaaaaaaw,remoteregionid:aaaaaaaaaaaaw2,local-whether-remoteHead:%!s(bool=true),len(rebranchblocks):0
+common block sync===d.mode:branch,remotemode:2
+common block sync===1.local is branchnode,remoteregionid:aaaaaaaaaaaaw2
+200--test peer head--pHead:[104 183 33 239 89 159 174 56 58 125 14 245 2 193 217 107 203 241 35 22 42 52 176 100 216 223 229 206 113 78 18 220],pTd:131072
+300--test RequestHeadersByHash==
+RequestHeadersByHash--eth-peer.go==count:1====
+handleMsg====
+400--test RequestHeadersByHash==
+500--test RequestHeadersByHash==
+600--test RequestHeadersByHash--head.Number:0, head.Hash:[104 183 33 239 89 159 174 56 58 125 14 245 2 193 217 107 203 241 35 22 42 52 176 100 216 223 229 206 113 78 18 220]==
+700--test RequestHeadersByHash--head.Number:0, head.Hash:[104 183 33 239 89 159 174 56 58 125 14 245 2 193 217 107 203 241 35 22 42 52 176 100 216 223 229 206 113 78 18 220]==
+common block sync===1--latest.RegionId:, latest.Number:0==
+BroadcastBranchBlock--len(heads):1
+BroadcastBranchBlock==inner2-propagate==block.RegionId:w,block.NumberU64:1==
+handleMsg====
+handleMsg====
+verifyHeader1==number:2,header.RegionId:w2==
+
+112--NewProtocolManager==len(blocks):1--
+111--len(chain):1--
+insertChain--VerifyHeaders
+BroadcastBlock==block.RegionId:w2,block.NumberU64:2==
+BroadcastBlock==inner2-propagate==block.RegionId:w2,block.NumberU64:2==
+verifyHeader2
+SetCurrentHeads==currentHeads--RegionId:w2,Number:2,TD:<nil>==
+BroadcastBlock==block.RegionId:w2,block.NumberU64:2==
+> eth.blockNumber
+2
+> synchronise--remote.networkID:w2, local.networkID:w==
+synchronise--2. local is branchnode,remote is leafnode--local:w,remote:w2
+synchronise--2.test-localBlock.RegionId:w2, localBlock.Num:2,heads.Regionid:w2,heads.Num:2==
+synchronise--2. localBlock.Num:2,td:393216==
+100--test remote head--hash:h�!�Y��8:}���k��#*4�d����qN�,pTd:131072
+**888--Synchronise--remoteregionid:aaaaaaaaaaaaw2**
+before syncWithPeer001==remoteregionid:aaaaaaaaaaaaw2==
+before syncWithPeer002==remoteregionid:aaaaaaaaaaaaw2==
+before syncWithPeer003==remoteregionid:aaaaaaaaaaaaw2==
+**syncWithPeer--localregionid:aaaaaaaaaaaaaw,remoteregionid:aaaaaaaaaaaaw2,local-whether-remoteHead:%!s(bool=false),len(rebranchblocks):0
+common block sync===d.mode:branch,remotemode:2
+common block sync===1.local is branchnode,remoteregionid:aaaaaaaaaaaaw2
+200--test peer head--pHead:[104 183 33 239 89 159 174 56 58 125 14 245 2 193 217 107 203 241 35 22 42 52 176 100 216 223 229 206 113 78 18 220],pTd:131072
+300--test RequestHeadersByHash==
+RequestHeadersByHash--eth-peer.go==count:1====
+handleMsg====
+400--test RequestHeadersByHash==
+500--test RequestHeadersByHash==
+600--test RequestHeadersByHash--head.Number:0, head.Hash:[104 183 33 239 89 159 174 56 58 125 14 245 2 193 217 107 203 241 35 22 42 52 176 100 216 223 229 206 113 78 18 220]==
+700--test RequestHeadersByHash--head.Number:0, head.Hash:[104 183 33 239 89 159 174 56 58 125 14 245 2 193 217 107 203 241 35 22 42 52 176 100 216 223 229 206 113 78 18 220]==
+common block sync===1--latest.RegionId:, latest.Number:0==
+BroadcastBranchBlock--len(heads):2
+BroadcastBranchBlock==inner2-propagate==block.RegionId:w,block.NumberU64:1==
+synchronise--remote.networkID:w2, local.networkID:w==
+synchronise--2. local is branchnode,remote is leafnode--local:w,remote:w2
+synchronise--2.test-localBlock.RegionId:w2, localBlock.Num:2,heads.Regionid:w2,heads.Num:2==
+synchronise--2. localBlock.Num:2,td:393216==
+100--test remote head--hash:h�!�Y��8:}���k��#*4�d����qN�,pTd:131072
+**888--Synchronise--remoteregionid:aaaaaaaaaaaaw2**
+before syncWithPeer001==remoteregionid:aaaaaaaaaaaaw2==
+before syncWithPeer002==remoteregionid:aaaaaaaaaaaaw2==
+before syncWithPeer003==remoteregionid:aaaaaaaaaaaaw2==
+**syncWithPeer--localregionid:aaaaaaaaaaaaaw,remoteregionid:aaaaaaaaaaaaw2,local-whether-remoteHead:%!s(bool=false),len(rebranchblocks):0
+common block sync===d.mode:branch,remotemode:2
+common block sync===1.local is branchnode,remoteregionid:aaaaaaaaaaaaw2
+200--test peer head--pHead:[104 183 33 239 89 159 174 56 58 125 14 245 2 193 217 107 203 241 35 22 42 52 176 100 216 223 229 206 113 78 18 220],pTd:131072
+300--test RequestHeadersByHash==
+RequestHeadersByHash--eth-peer.go==count:1====
+handleMsg====
+400--test RequestHeadersByHash==
+500--test RequestHeadersByHash==
+600--test RequestHeadersByHash--head.Number:0, head.Hash:[104 183 33 239 89 159 174 56 58 125 14 245 2 193 217 107 203 241 35 22 42 52 176 100 216 223 229 206 113 78 18 220]==
+700--test RequestHeadersByHash--head.Number:0, head.Hash:[104 183 33 239 89 159 174 56 58 125 14 245 2 193 217 107 203 241 35 22 42 52 176 100 216 223 229 206 113 78 18 220]==
+common block sync===1--latest.RegionId:, latest.Number:0==
+BroadcastBranchBlock--len(heads):2
+BroadcastBranchBlock==inner2-propagate==block.RegionId:w,block.NumberU64:1==
+handleMsg====
+==NewBlockMsg=remote.id:w2--remote.num:3--remote.td:524288--remote.difficult:131072==
+==NewBlockMsg=branch sync-trueTD:393216,td:131072==
+==1=localregid:w2-localnum:2-remoteid:w2-remotenum:3==
+==4=new-currentBlock.td:393216,curid:w2,curnumber:2===
+==4=new-requestBlock.td:131072,requestid:w2,requestnumber:3===
+==NewBlockMsg-trueTD:393216,curtd:393216==
+verifyHeader1==number:3,header.RegionId:w2==
+
+112--NewProtocolManager==len(blocks):1--
+111--len(chain):1--
+insertChain--VerifyHeaders
+BroadcastBlock==block.RegionId:w2,block.NumberU64:3==
+BroadcastBlock==inner2-propagate==block.RegionId:w2,block.NumberU64:3==
+verifyHeader2
+SetCurrentHeads==currentHeads--RegionId:w2,Number:3,TD:<nil>==
+BroadcastBlock==block.RegionId:w2,block.NumberU64:3==
+handleMsg====
+==NewBlockMsg=remote.id:w2--remote.num:4--remote.td:655424--remote.difficult:131136==
+==NewBlockMsg=branch sync-trueTD:524288,td:393216==
+==1=localregid:w2-localnum:3-remoteid:w2-remotenum:4==
+==4=new-currentBlock.td:524288,curid:w2,curnumber:3===
+==4=new-requestBlock.td:131136,requestid:w2,requestnumber:4===
+==NewBlockMsg-trueTD:524288,curtd:524288==
+verifyHeader1==number:4,header.RegionId:w2==
+
+112--NewProtocolManager==len(blocks):1--
+111--len(chain):1--
+BroadcastBlock==block.RegionId:w2,block.NumberU64:4==
+BroadcastBlock==inner2-propagate==block.RegionId:w2,block.NumberU64:4==
+insertChain--VerifyHeaders
+verifyHeader2
+SetCurrentHeads==currentHeads--RegionId:w2,Number:4,TD:<nil>==
+BroadcastBlock==block.RegionId:w2,block.NumberU64:4==
+handleMsg====
+==NewBlockMsg=remote.id:w2--remote.num:5--remote.td:786624--remote.difficult:131200==
+==NewBlockMsg=branch sync-trueTD:655424,td:524288==
+==1=localregid:w2-localnum:4-remoteid:w2-remotenum:5==
+==4=new-currentBlock.td:655424,curid:w2,curnumber:4===
+==4=new-requestBlock.td:131200,requestid:w2,requestnumber:5===
+==NewBlockMsg-trueTD:655424,curtd:655424==
+verifyHeader1==number:5,header.RegionId:w2==
+
+112--NewProtocolManager==len(blocks):1--
+111--len(chain):1--
+BroadcastBlock==block.RegionId:w2,block.NumberU64:5==
+BroadcastBlock==inner2-propagate==block.RegionId:w2,block.NumberU64:5==
+insertChain--VerifyHeaders
+verifyHeader2
+SetCurrentHeads==currentHeads--RegionId:w2,Number:5,TD:<nil>==
+BroadcastBlock==block.RegionId:w2,block.NumberU64:5==
+handleMsg====
+==NewBlockMsg=remote.id:w2--remote.num:6--remote.td:917888--remote.difficult:131264==
+==NewBlockMsg=branch sync-trueTD:786624,td:655424==
+==1=localregid:w2-localnum:5-remoteid:w2-remotenum:6==
+==4=new-currentBlock.td:786624,curid:w2,curnumber:5===
+==4=new-requestBlock.td:131264,requestid:w2,requestnumber:6===
+==NewBlockMsg-trueTD:786624,curtd:786624==
+verifyHeader1==number:6,header.RegionId:w2==
+
+112--NewProtocolManager==len(blocks):1--
+111--len(chain):1--
+insertChain--VerifyHeaders
+BroadcastBlock==block.RegionId:w2,block.NumberU64:6==
+BroadcastBlock==inner2-propagate==block.RegionId:w2,block.NumberU64:6==
+verifyHeader2
+SetCurrentHeads==currentHeads--RegionId:w2,Number:6,TD:<nil>==
+BroadcastBlock==block.RegionId:w2,block.NumberU64:6==
+handleMsg====
+==NewBlockMsg=remote.id:w2--remote.num:7--remote.td:1049216--remote.difficult:131328==
+==NewBlockMsg=branch sync-trueTD:917888,td:786624==
+==1=localregid:w2-localnum:6-remoteid:w2-remotenum:7==
+==4=new-currentBlock.td:917888,curid:w2,curnumber:6===
+==4=new-requestBlock.td:131328,requestid:w2,requestnumber:7===
+==NewBlockMsg-trueTD:917888,curtd:917888==
+verifyHeader1==number:7,header.RegionId:w2==
+
+112--NewProtocolManager==len(blocks):1--
+111--len(chain):1--
+insertChain--VerifyHeaders
+BroadcastBlock==block.RegionId:w2,block.NumberU64:7==
+BroadcastBlock==inner2-propagate==block.RegionId:w2,block.NumberU64:7==
+verifyHeader2
+SetCurrentHeads==currentHeads--RegionId:w2,Number:7,TD:<nil>==
+BroadcastBlock==block.RegionId:w2,block.NumberU64:7==
+synchronise--remote.networkID:w2, local.networkID:w==
+synchronise--2. local is branchnode,remote is leafnode--local:w,remote:w2
+synchronise--2.test-localBlock.RegionId:w2, localBlock.Num:7,heads.Regionid:w2,heads.Num:7==
+synchronise--2. localBlock.Num:7,td:1049216==
+100--test remote head--hash:G`Wn��$�56�|��@p|f0Z��	�tdٌ,pTd:917888
+**888--Synchronise--remoteregionid:aaaaaaaaaaaaw2**
+before syncWithPeer001==remoteregionid:aaaaaaaaaaaaw2==
+before syncWithPeer002==remoteregionid:aaaaaaaaaaaaw2==
+before syncWithPeer003==remoteregionid:aaaaaaaaaaaaw2==
+**syncWithPeer--localregionid:aaaaaaaaaaaaaw,remoteregionid:aaaaaaaaaaaaw2,local-whether-remoteHead:%!s(bool=false),len(rebranchblocks):0
+common block sync===d.mode:branch,remotemode:2
+common block sync===1.local is branchnode,remoteregionid:aaaaaaaaaaaaw2
+200--test peer head--pHead:[71 96 87 110 171 215 36 181 53 54 188 3 124 206 217 64 26 112 26 124 102 48 90 146 205 9 160 116 100 16 217 140],pTd:917888
+300--test RequestHeadersByHash==
+RequestHeadersByHash--eth-peer.go==count:1====
+handleMsg====
+400--test RequestHeadersByHash==
+500--test RequestHeadersByHash==
+600--test RequestHeadersByHash--head.Number:6, head.Hash:[71 96 87 110 171 215 36 181 53 54 188 3 124 206 217 64 26 112 26 124 102 48 90 146 205 9 160 116 100 16 217 140]==
+700--test RequestHeadersByHash--head.Number:6, head.Hash:[71 96 87 110 171 215 36 181 53 54 188 3 124 206 217 64 26 112 26 124 102 48 90 146 205 9 160 116 100 16 217 140]==
+common block sync===1--latest.RegionId:w2, latest.Number:6==
+==findAncestor==BranchSync==localHeight:7==
+==findAncestor==localMnode:branch,localHeight:7,remoteHeight:6,remoteRegionID:w2==
+==findAncestor-1=from:3,count:2,skip:1,remoteHeight:6,localHeight:7==
+handleMsg====
+common block sync1===latest.Number:6, origin.Number:5==
+handleMsg====
+handleMsg====
+handleMsg====
+handleMsg====
+handleMsg====
+handleMsg====
+synchronise--remote.networkID:w2, local.networkID:w==
+synchronise--2. local is branchnode,remote is leafnode--local:w,remote:w2
+synchronise--2.test-localBlock.RegionId:w2, localBlock.Num:7,heads.Regionid:w2,heads.Num:7==
+synchronise--2. localBlock.Num:7,td:1049216==
+100--test remote head--hash:G`Wn��$�56�|��@p|f0Z��	�tdٌ,pTd:917888
+**888--Synchronise--remoteregionid:aaaaaaaaaaaaw2**
+before syncWithPeer001==remoteregionid:aaaaaaaaaaaaw2==
+> eth.blockNumber
+7
+> ==handle-leafnode-number:7,td:1049216==
+==handle==local-len(heads):2==
+==handle==v.Number:1,v.td:262144==
+==handle1--k:aaaaaaaaaaaaaw,v.Number:1,v.td:262144==
+==handle==v.Number:7,v.td:1049216==
+==handle1--k:aaaaaaaaaaaaw2,v.Number:7,v.td:1049216==
+==Handshake==p2p.Send==local Data--TD:1049216,head:[194 129 57 125 140 15 45 223 246 37 119 209 117 0 215 32 20 11 224 131 3 128 126 66 173 155 147 17 169 166 174 2],TDs:[262144 1049216]==
+readStatus==remote.TDs:[262144 1706176],remote.NetworkID:w2,local.network:w
+eth64--remote-Syncmode:0,remote.Heads[aaaaaaaaaaaaw2]:[169 219 123 98 108 53 150 231 31 33 176 107 93 194 102 105 161 141 242 139 146 117 150 152 212 166 212 204 55 164 48 184],remote.tds:1706176,remote.Head:[169 219 123 98 108 53 150 231 31 33 176 107 93 194 102 105 161 141 242 139 146 117 150 152 212 166 212 204 55 164 48 184],remote.TD:1706176
+synchronise--remote.networkID:w2, local.networkID:w==
+synchronise--2. local is branchnode,remote is leafnode--local:w,remote:w2
+synchronise--2.test-localBlock.RegionId:w2, localBlock.Num:7,heads.Regionid:w2,heads.Num:7==
+synchronise--2. localBlock.Num:7,td:1049216==
+100--test remote head--hash:��{bl5��!�k]�fi�����u��Ԧ��7�0�,pTd:1706176
+**888--Synchronise--remoteregionid:aaaaaaaaaaaaw2**
+before syncWithPeer001==remoteregionid:aaaaaaaaaaaaw2==
+handleMsg====
+handleMsg====
+synchronise--remote.networkID:w2, local.networkID:w==
+synchronise--2. local is branchnode,remote is leafnode--local:w,remote:w2
+synchronise--2.test-localBlock.RegionId:w2, localBlock.Num:7,heads.Regionid:w2,heads.Num:7==
+synchronise--2. localBlock.Num:7,td:1049216==
+100--test remote head--hash:��{bl5��!�k]�fi�����u��Ԧ��7�0�,pTd:1706176
+**888--Synchronise--remoteregionid:aaaaaaaaaaaaw2**
+before syncWithPeer001==remoteregionid:aaaaaaaaaaaaw2==
+synchronise--remote.networkID:w2, local.networkID:w==
+synchronise--2. local is branchnode,remote is leafnode--local:w,remote:w2
+synchronise--2.test-localBlock.RegionId:w2, localBlock.Num:7,heads.Regionid:w2,heads.Num:7==
+synchronise--2. localBlock.Num:7,td:1049216==
+100--test remote head--hash:��{bl5��!�k]�fi�����u��Ԧ��7�0�,pTd:1706176
+**888--Synchronise--remoteregionid:aaaaaaaaaaaaw2**
+before syncWithPeer001==remoteregionid:aaaaaaaaaaaaw2==
+synchronise--remote.networkID:w2, local.networkID:w==
+synchronise--2. local is branchnode,remote is leafnode--local:w,remote:w2
+synchronise--2.test-localBlock.RegionId:w2, localBlock.Num:7,heads.Regionid:w2,heads.Num:7==
+synchronise--2. localBlock.Num:7,td:1049216==
+100--test remote head--hash:��{bl5��!�k]�fi�����u��Ԧ��7�0�,pTd:1706176
+**888--Synchronise--remoteregionid:aaaaaaaaaaaaw2**
+before syncWithPeer001==remoteregionid:aaaaaaaaaaaaw2==
+==handle-leafnode-number:7,td:1049216==
+==handle==local-len(heads):2==
+==handle==v.Number:1,v.td:262144==
+==handle1--k:aaaaaaaaaaaaaw,v.Number:1,v.td:262144==
+==handle==v.Number:7,v.td:1049216==
+==handle1--k:aaaaaaaaaaaaw2,v.Number:7,v.td:1049216==
+==Handshake==p2p.Send==local Data--TD:1049216,head:[194 129 57 125 140 15 45 223 246 37 119 209 117 0 215 32 20 11 224 131 3 128 126 66 173 155 147 17 169 166 174 2],TDs:[262144 1049216]==
+readStatus==remote.TDs:[262144 1706176],remote.NetworkID:w2,local.network:w
+eth64--remote-Syncmode:0,remote.Heads[aaaaaaaaaaaaw2]:[169 219 123 98 108 53 150 231 31 33 176 107 93 194 102 105 161 141 242 139 146 117 150 152 212 166 212 204 55 164 48 184],remote.tds:1706176,remote.Head:[169 219 123 98 108 53 150 231 31 33 176 107 93 194 102 105 161 141 242 139 146 117 150 152 212 166 212 204 55 164 48 184],remote.TD:1706176
+synchronise--remote.networkID:w2, local.networkID:w==
+synchronise--2. local is branchnode,remote is leafnode--local:w,remote:w2
+synchronise--2.test-localBlock.RegionId:w2, localBlock.Num:7,heads.Regionid:w2,heads.Num:7==
+synchronise--2. localBlock.Num:7,td:1049216==
+100--test remote head--hash:��{bl5��!�k]�fi�����u��Ԧ��7�0�,pTd:1706176
+**888--Synchronise--remoteregionid:aaaaaaaaaaaaw2**
+before syncWithPeer001==remoteregionid:aaaaaaaaaaaaw2==
+handleMsg====
+> exit

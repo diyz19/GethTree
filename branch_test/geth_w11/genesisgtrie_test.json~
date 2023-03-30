@@ -1,0 +1,21 @@
+{
+  "config": {
+    "chainId": 1,
+    "homesteadBlock": 1150000,
+    "eip150Block": 2463000,
+    "eip155Block": 2675000,
+    "eip158Block": 2675000,
+    "byzantiumBlock": 4370000,
+    "constantinopleBlock": 7280000,
+    "petersburgBlock": 7280000
+  },
+  "alloc": {},
+  "coinbase": "0x0000000000000000000000000000000000000000",
+  "difficulty": "0x20000",
+  "extraData": "",
+  "gasLimit": "0xffffffff",
+  "nonce": "0x0000000000000042",
+  "mixhash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "timestamp": "0x00"
+}
