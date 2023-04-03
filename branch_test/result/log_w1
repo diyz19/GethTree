@@ -700,3 +700,26 @@ AssetTransList-add--list.pending:&{Ğä8ùJp¤’Rã[šeúİ8r¹ Šû¦–­-\ÎüÙWèÎÏ<F8ªZbj
 ****localTd:29733767,externTd:29871225****
 ****localTd:29871225,externTd:30008750****
 ****localTd:30008750,externTd:30146342****
+---parent.Number:0, branchb.RegionId:w1,ptd:131072---
+---parent.Number:0, branchb.RegionId:w11,ptd:131072---
+---parent.Number:0, branchb.RegionId:w12,ptd:131072---
+Welcome to the Geth JavaScript console!
+
+instance: Geth/MyEth/v1.9.12-stable-775ced92/linux-amd64/go1.13.9
+coinbase: 0x196424dd2bf7c978228ebd7a17b38b993d650696
+at block: 1 (Thu Jan 01 1970 08:00:20 GMT+0800 (CST))
+ datadir: /home/dyz/dyz/ExperimentsWithGethTree-main/branch_test/geth_w1/gethdata
+ modules: admin:1.0 debug:1.0 eth:1.0 ethash:1.0 miner:1.0 net:1.0 personal:1.0 rpc:1.0 txpool:1.0 web3:1.0
+
+> ---parent.Number:0, branchb.RegionId:w1,ptd:131072---
+---parent.Number:0, branchb.RegionId:w11,ptd:131072---
+---parent.Number:0, branchb.RegionId:w12,ptd:131072---
+Welcome to the Geth JavaScript console!
+
+instance: Geth/MyEth/v1.9.12-stable-775ced92/linux-amd64/go1.13.9
+coinbase: 0x196424dd2bf7c978228ebd7a17b38b993d650696
+at block: 1 (Thu Jan 01 1970 08:00:20 GMT+0800 (CST))
+ datadir: /home/dyz/dyz/dyz/GethTree/branch_test/geth_w1/gethdata
+ modules: admin:1.0 debug:1.0 eth:1.0 ethash:1.0 miner:1.0 net:1.0 personal:1.0 rpc:1.0 txpool:1.0 web3:1.0
+
+> 
