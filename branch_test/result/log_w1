@@ -1,0 +1,702 @@
+---parent.Number:0, branchb.RegionId:w1,ptd:131072---
+Welcome to the Geth JavaScript console!
+
+instance: Geth/MyEth/v1.9.12-stable-c0fa3f5e/linux-amd64/go1.13.9
+coinbase: 0x196424dd2bf7c978228ebd7a17b38b993d650696
+at block: 1 (Thu Jan 01 1970 08:00:10 GMT+0800 (CST))
+ datadir: /home/zc/20230203-treechain_expermiment/transfer-2leaf/geth_w1/gethdata
+ modules: admin:1.0 debug:1.0 eth:1.0 ethash:1.0 miner:1.0 net:1.0 personal:1.0 rpc:1.0 txpool:1.0 web3:1.0
+
+> ---parent.Number:0, branchb.RegionId:w1,ptd:131072---
+Welcome to the Geth JavaScript console!
+
+instance: Geth/MyEth/v1.9.12-stable-775ced92/linux-amd64/go1.13.9
+coinbase: 0x196424dd2bf7c978228ebd7a17b38b993d650696
+at block: 1 (Thu Jan 01 1970 08:00:10 GMT+0800 (CST))
+ datadir: /home/dyz/dyz/ExperimentsWithGethTree-main/branch_test/geth_w1/gethdata
+ modules: admin:1.0 debug:1.0 eth:1.0 ethash:1.0 miner:1.0 net:1.0 personal:1.0 rpc:1.0 txpool:1.0 web3:1.0
+
+> "enode://70cc681204119351b650861ce604347fd5e8f306cd29e5c0e1e1e53c93fd63b7d583a4ab5ccdfe2526900db4344443a20a22f6f7a4387fff095bd38fbaebac38@127.0.0.1:30309?discport=0"
+> ---parent.Number:0, branchb.RegionId:w1,ptd:131072---
+Fatal: Failed to start the JavaScript console: ../test_file/w1_setbranch.js: Error: The branch already exists
+	at web3.js:6358:37(47)
+	at web3.js:5081:62(37)
+	at ../test_file/w1_setbranch.js:1:19(13)
+
+---parent.Number:0, branchb.RegionId:w1,ptd:131072---
+Fatal: Failed to start the JavaScript console: ../test_file/w1_setbranch.js: Error: The branch already exists
+	at web3.js:6358:37(47)
+	at web3.js:5081:62(37)
+	at ../test_file/w1_setbranch.js:1:19(13)
+
+---parent.Number:0, branchb.RegionId:w1,ptd:131072---
+Welcome to the Geth JavaScript console!
+
+instance: Geth/MyEth/v1.9.12-stable-775ced92/linux-amd64/go1.13.9
+coinbase: 0x196424dd2bf7c978228ebd7a17b38b993d650696
+at block: 1 (Thu Jan 01 1970 08:00:10 GMT+0800 (CST))
+ datadir: /home/dyz/dyz/ExperimentsWithGethTree-main/branch_test/geth_w1/gethdata
+ modules: admin:1.0 debug:1.0 eth:1.0 ethash:1.0 miner:1.0 net:1.0 personal:1.0 rpc:1.0 txpool:1.0 web3:1.0
+
+> "enode://70cc681204119351b650861ce604347fd5e8f306cd29e5c0e1e1e53c93fd63b7d583a4ab5ccdfe2526900db4344443a20a22f6f7a4387fff095bd38fbaebac38@127.0.0.1:30309?discport=0"
+> "enode://70cc681204119351b650861ce604347fd5e8f306cd29e5c0e1e1e53c93fd63b7d583a4ab5ccdfe2526900db4344443a20a22f6f7a4387fff095bd38fbaebac38@127.0.0.1:30309?discport=0"
+> ---parent.Number:0, branchb.RegionId:w1,ptd:131072---
+Welcome to the Geth JavaScript console!
+
+instance: Geth/MyEth/v1.9.12-stable-775ced92/linux-amd64/go1.13.9
+coinbase: 0x196424dd2bf7c978228ebd7a17b38b993d650696
+at block: 1 (Thu Jan 01 1970 08:00:10 GMT+0800 (CST))
+ datadir: /home/dyz/dyz/ExperimentsWithGethTree-main/branch_test/geth_w1/gethdata
+ modules: admin:1.0 debug:1.0 eth:1.0 ethash:1.0 miner:1.0 net:1.0 personal:1.0 rpc:1.0 txpool:1.0 web3:1.0
+
+> ---parent.Number:0, branchb.RegionId:w11,ptd:131072---
+****localTd:262144,externTd:262144****
+[{
+    caps: ["eth/63", "eth/64", "eth/65"],
+    enode: "enode://0e755b98e88de71290e4ead6519f61a291c2eb0f2df3bd10bdc9cda765919550cc14237a5b29cd492a6f9ab321e8ac6698bdc22fa735e58db7a046f2ecd28fbd@127.0.0.1:42300",
+    id: "030986890102c45496b0db9e5c8e57927cc2afca9cb082433617f24314bb86b4",
+    name: "Geth/MyEth/v1.9.12-stable-775ced92/linux-amd64/go1.13.9",
+    network: {
+      inbound: true,
+      localAddress: "127.0.0.1:30309",
+      remoteAddress: "127.0.0.1:42300",
+      static: false,
+      trusted: false
+    },
+    protocols: {
+      eth: {
+        difficulty: 131072,
+        head: "0xbbced7db69038e044e059b82046799d75fd655b9b51e39bdcd72ab800b81d7f1",
+        version: 65
+      }
+    }
+}, {
+    caps: ["eth/63", "eth/64", "eth/65"],
+    enode: "enode://387197a373bf838f37e58c79b84411c5f37dcadc1640abb2f36d9e7355a32b1c6dbd4293ebb4b6b830fe133b89fd1285d2e96295b180b8a10119ff51e301fa8d@127.0.0.1:47054",
+    id: "76ddf711ecd4b457eec11c99f815575696f4c3ca09639bf3792edc1cf4951763",
+    name: "Geth/MyEth/v1.9.12-stable-775ced92/linux-amd64/go1.13.9",
+    network: {
+      inbound: true,
+      localAddress: "127.0.0.1:30309",
+      remoteAddress: "127.0.0.1:47054",
+      static: false,
+      trusted: false
+    },
+    protocols: {
+      eth: {
+        difficulty: 131072,
+        head: "0xbbced7db69038e044e059b82046799d75fd655b9b51e39bdcd72ab800b81d7f1",
+        version: 65
+      }
+    }
+}]
+> ---parent.Number:0, branchb.RegionId:w12,ptd:131072---
+****localTd:262144,externTd:262144****
+{
+  blockType: "0x1",
+  difficulty: "0x20000",
+  extraData: "0x",
+  firstBB: false,
+  gasLimit: "0x0",
+  gasUsed: "0x0",
+  hash: "0xe78278b189ec89f289ec6c4bcc5f00acde92a732d0289c66daeb343f04860922",
+  logsBloom: "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  miner: "0x196424dd2bf7c978228ebd7a17b38b993d650696",
+  mixHash: "0x0000000000000000000000000000000000000000000000000000000000000000",
+  nonce: "0x0000000000000042",
+  number: "0x1",
+  parallelHash: "0x0000000000000000000000000000000000000000000000000000000000000000",
+  parentHash: "0xbbced7db69038e044e059b82046799d75fd655b9b51e39bdcd72ab800b81d7f1",
+  receiptsRoot: "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+  regionId: "0x773131",
+  regionRoot: "0x3f62cff603015f053e7bcc2497e0b22f3665a509f040f685695a88fd17417c58",
+  sha3Uncles: "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+  size: "0x240",
+  stateRoot: "0xd16211e3a7d43f9d2f635fbea8949126d5419197e23bc9518c073b86ecb089d4",
+  timestamp: "0x14",
+  transactionsRoot: "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+  uncles: []
+}
+> {
+  blockType: "0x1",
+  difficulty: "0x20000",
+  extraData: "0x",
+  firstBB: false,
+  gasLimit: "0x0",
+  gasUsed: "0x0",
+  hash: "0x24d2ab3c6ea93ba828531e8355e3e0055ecd6175828ca133f38c2b3e37d53f97",
+  logsBloom: "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  miner: "0x196424dd2bf7c978228ebd7a17b38b993d650696",
+  mixHash: "0x0000000000000000000000000000000000000000000000000000000000000000",
+  nonce: "0x0000000000000042",
+  number: "0x1",
+  parallelHash: "0x0000000000000000000000000000000000000000000000000000000000000000",
+  parentHash: "0xbbced7db69038e044e059b82046799d75fd655b9b51e39bdcd72ab800b81d7f1",
+  receiptsRoot: "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+  regionId: "0x773132",
+  regionRoot: "0x3f62cff603015f053e7bcc2497e0b22f3665a509f040f685695a88fd17417c58",
+  sha3Uncles: "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+  size: "0x240",
+  stateRoot: "0xd16211e3a7d43f9d2f635fbea8949126d5419197e23bc9518c073b86ecb089d4",
+  timestamp: "0x14",
+  transactionsRoot: "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+  uncles: []
+}
+> ****localTd:262144,externTd:393216****
+****localTd:393216,externTd:393216****
+****localTd:393216,externTd:524352****
+****localTd:524352,externTd:524352****
+****localTd:524352,externTd:655552****
+****localTd:655552,externTd:786816****
+****localTd:786816,externTd:655552****
+****localTd:655552,externTd:786816****
+****localTd:786816,externTd:918144****
+****localTd:918144,externTd:1049536****
+****localTd:1049536,externTd:918144****
+****localTd:918144,externTd:1049536****
+****localTd:1049536,externTd:1180992****
+****localTd:1180992,externTd:1312512****
+****localTd:1312512,externTd:1444096****
+****localTd:1444096,externTd:1575744****
+****localTd:1575744,externTd:1707456****
+****localTd:1707456,externTd:1180992****
+****localTd:1180992,externTd:1312512****
+****localTd:1312512,externTd:1444096****
+****localTd:1444096,externTd:1575744****
+****localTd:1575744,externTd:1707456****
+****localTd:1707456,externTd:1839232****
+****localTd:1839232,externTd:1971072****
+****localTd:1971072,externTd:1839232****
+****localTd:1839232,externTd:1971072****
+****localTd:1971072,externTd:2102976****
+****localTd:1444096,externTd:2102976****
+****localTd:2102976,externTd:2234944****
+****localTd:2234944,externTd:2366976****
+--handler-TX_request--
+***---add---***
+***---from:[18 208 228 56 30 249 74 112 164 146 82 227 91 154 101 250 221 56 114 185]---***
+****localTd:2366976,externTd:2234944****
+****localTd:2234944,externTd:2366976****
+****localTd:2366976,externTd:2499072****
+****localTd:2499072,externTd:2499072****
+****localTd:2499072,externTd:2631232****
+****localTd:2631232,externTd:2763392****
+****localTd:2763392,externTd:2895552****
+****localTd:2895552,externTd:2631232****
+****localTd:2631232,externTd:2763328****
+****localTd:2763328,externTd:2895488****
+****localTd:2895488,externTd:3027776****
+****localTd:3027776,externTd:3027712****
+****localTd:3027712,externTd:3160000****
+****localTd:3160000,externTd:3292352****
+****localTd:3292352,externTd:3424768****
+****localTd:3424768,externTd:3160064****
+****localTd:3160064,externTd:3292416****
+****localTd:3292416,externTd:3424832****
+****localTd:3424832,externTd:3557248****
+****localTd:<nil>,externTd:3557312****
+---parent.Number:0, branchb.RegionId:w1,ptd:131072---
+---parent.Number:0, branchb.RegionId:w11,ptd:131072---
+---parent.Number:0, branchb.RegionId:w12,ptd:131072---
+Welcome to the Geth JavaScript console!
+
+instance: Geth/MyEth/v1.9.12-stable-775ced92/linux-amd64/go1.13.9
+coinbase: 0x196424dd2bf7c978228ebd7a17b38b993d650696
+at block: 1 (Thu Jan 01 1970 08:00:20 GMT+0800 (CST))
+ datadir: /home/dyz/dyz/ExperimentsWithGethTree-main/branch_test/geth_w1/gethdata
+ modules: admin:1.0 debug:1.0 eth:1.0 ethash:1.0 miner:1.0 net:1.0 personal:1.0 rpc:1.0 txpool:1.0 web3:1.0
+
+> ****localTd:262144,externTd:393216****
+****localTd:393216,externTd:524352****
+****localTd:524352,externTd:655552****
+****localTd:655552,externTd:786816****
+****localTd:786816,externTd:918144****
+****localTd:918144,externTd:1049536****
+****localTd:1049536,externTd:1180992****
+****localTd:1180992,externTd:1312512****
+****localTd:1312512,externTd:1444096****
+****localTd:1444096,externTd:1575744****
+****localTd:1575744,externTd:1707456****
+****localTd:1707456,externTd:1839232****
+****localTd:1839232,externTd:1971072****
+****localTd:1971072,externTd:2102976****
+****localTd:2102976,externTd:2234944****
+****localTd:2234944,externTd:2366976****
+****localTd:2366976,externTd:2499072****
+****localTd:2499072,externTd:2631232****
+****localTd:2631232,externTd:2763392****
+****localTd:2763392,externTd:2895552****
+****localTd:2895552,externTd:3027776****
+****localTd:3027776,externTd:3160064****
+****localTd:3160064,externTd:3292416****
+****localTd:3292416,externTd:3424832****
+****localTd:3424832,externTd:3557312****
+****localTd:3557312,externTd:3689856****
+****localTd:3689856,externTd:3822464****
+****localTd:3822464,externTd:3955072****
+****localTd:3955072,externTd:4087744****
+****localTd:4087744,externTd:4220480****
+****localTd:4220480,externTd:4353280****
+****localTd:4353280,externTd:4486144****
+****localTd:4486144,externTd:4619072****
+****localTd:4619072,externTd:4752064****
+****localTd:4752064,externTd:4885120****
+****localTd:4885120,externTd:5018240****
+****localTd:5018240,externTd:5151425****
+****localTd:5151425,externTd:5284675****
+****localTd:5284675,externTd:5417990****
+****localTd:5417990,externTd:5551370****
+****localTd:5551370,externTd:5684815****
+****localTd:5684815,externTd:5818325****
+****localTd:5818325,externTd:5951900****
+****localTd:5951900,externTd:6085540****
+****localTd:6085540,externTd:6219245****
+****localTd:6219245,externTd:6352950****
+****localTd:6352950,externTd:6486720****
+BroadcastBranchBlock==transfer.networkID:w11==
+BroadcastBranchBlock==transfer.networkID:w12==
+[{
+    caps: ["eth/63", "eth/64", "eth/65"],
+    enode: "enode://0e755b98e88de71290e4ead6519f61a291c2eb0f2df3bd10bdc9cda765919550cc14237a5b29cd492a6f9ab321e8ac6698bdc22fa735e58db7a046f2ecd28fbd@127.0.0.1:57174",
+    id: "030986890102c45496b0db9e5c8e57927cc2afca9cb082433617f24314bb86b4",
+    name: "Geth/MyEth/v1.9.12-stable-775ced92/linux-amd64/go1.13.9",
+    network: {
+      inbound: true,
+      localAddress: "127.0.0.1:30309",
+      remoteAddress: "127.0.0.1:57174",
+      static: false,
+      trusted: false
+    },
+    protocols: {
+      eth: {
+        difficulty: 5684233,
+        head: "0xba4fe08a38b63696b53184ec6d18d24006bf499adb134677bb617767762a6343",
+        version: 65
+      }
+    }
+}, {
+    caps: ["eth/63", "eth/64", "eth/65"],
+    enode: "enode://387197a373bf838f37e58c79b84411c5f37dcadc1640abb2f36d9e7355a32b1c6dbd4293ebb4b6b830fe133b89fd1285d2e96295b180b8a10119ff51e301fa8d@127.0.0.1:57176",
+    id: "76ddf711ecd4b457eec11c99f815575696f4c3ca09639bf3792edc1cf4951763",
+    name: "Geth/MyEth/v1.9.12-stable-775ced92/linux-amd64/go1.13.9",
+    network: {
+      inbound: true,
+      localAddress: "127.0.0.1:30309",
+      remoteAddress: "127.0.0.1:57176",
+      static: false,
+      trusted: false
+    },
+    protocols: {
+      eth: {
+        difficulty: 6486720,
+        head: "0xb9bbc953cab37be3872c4187f8dfc16b7982e60aa935f056f4f86d511c551a20",
+        version: 65
+      }
+    }
+}]
+> ****localTd:6486720,externTd:6617792****
+****localTd:6617792,externTd:6748928****
+****localTd:6748928,externTd:6880128****
+****localTd:6880128,externTd:7011392****
+****localTd:7011392,externTd:7142720****
+****localTd:7142720,externTd:7274112****
+****localTd:7274112,externTd:7405568****
+****localTd:7405568,externTd:7537088****
+--handler-TX_request--
+***---add---***
+***---from:[18 208 228 56 30 249 74 112 164 146 82 227 91 154 101 250 221 56 114 185]---***
+***---outchain:aaaaaaaaaaaw11---***
+AssetTransList-add--list.pending:&{–‰8˘Jp§íR„[öe˙›8rπ ä˚¶ñ≠-\Œ¸ŸWËŒèœ<F8™Zbj˜n∞óC‡Ë                                  %!s(*big.Int=&{false [20000]}) aaaaaaaaaaaw11 aaaaaaaaaaaw12 {%!s(uint64=13907500236662365338) %!s(int64=147452779310) %!s(*time.Location=&{Local [{LMT 29143 false} {CDT 32400 true} {CST 28800 false}] [{-2177481943 2 false false} {-1600675200 1 false false} {-1585904400 2 false false} {-933667200 1 false false} {-922093200 2 false false} {-908870400 1 false false} {-888829200 2 false false} {-881049600 1 false false} {-767869200 2 false false} {-745833600 1 false false} {-733827600 2 false false} {-716889600 1 false false} {-699613200 2 false false} {-683884800 1 false false} {-670669200 2 false false} {-652348800 1 false false} {-650019600 2 false false} {515527200 1 false false} {527014800 2 false false} {545162400 1 false false} {558464400 2 false false} {577216800 1 false false} {589914000 2 false false} {608666400 1 false false} {621968400 2 false false} {640116000 1 false false} {653418000 2 false false} {671565600 1 false false} {684867600 2 false false}] 684867600 9223372036854775807 0xc0000845e0})}                                                                                                                                     %!s(uint=0)}
+****localTd:7537088,externTd:7668672****
+****localTd:7668672,externTd:7800320****
+****localTd:7800320,externTd:7932032****
+--handler-TX_request--
+***---add---***
+***---from:[18 208 228 56 30 249 74 112 164 146 82 227 91 154 101 250 221 56 114 185]---***
+****localTd:7932032,externTd:8063808****
+****localTd:8063808,externTd:8195648****
+****localTd:8195648,externTd:8327552****
+****localTd:8327552,externTd:8459520****
+--handler-TX_in--
+**matchIn-txin.To():[18 208 228 56 30 249 74 112 164 146 82 227 91 154 101 250 221 56 114 185]**
+**matchIn-from:[18 208 228 56 30 249 74 112 164 146 82 227 91 154 101 250 221 56 114 185]**
+**matchIn-1-list.pending:&{[18 208 228 56 30 249 74 112 164 146 82 227 91 154 101 250 221 56 114 185] [138 251 166 150 173 45 92 206 8 252 217 87 232 206 143 207 60 70 56 28 170 90 98 106 247 110 7 176 151 67 224 232] [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] 824657312608 [97 97 97 97 97 97 97 97 97 97 97 119 49 49] [97 97 97 97 97 97 97 97 97 97 97 119 49 50] {13907500236662365338 147452779310 35337696} [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] 0}**
+**matchIn-2-list.pending:&{[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] 0 [] [] {0 0 0} [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] [12 254 30 8 79 170 60 133 190 248 238 90 183 27 7 122 171 7 133 104 91 120 148 123 193 109 22 62 104 186 245 152] [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] 1}**
+--handler-TX_out--
+****localTd:8459520,externTd:8591552****
+****localTd:8591552,externTd:8723648****
+****localTd:8723648,externTd:8855808****
+****localTd:8855808,externTd:8988032****
+****localTd:8988032,externTd:9120320****
+****localTd:9120320,externTd:9252672****
+****localTd:9252672,externTd:9385024****
+****localTd:9385024,externTd:9517440****
+****localTd:9517440,externTd:9649920****
+****localTd:9649920,externTd:9782464****
+****localTd:9782464,externTd:9915072****
+****localTd:9915072,externTd:10047744****
+****localTd:10047744,externTd:10180480****
+****localTd:10180480,externTd:10313280****
+****localTd:10313280,externTd:10446144****
+****localTd:10446144,externTd:10579072****
+****localTd:10579072,externTd:10712064****
+****localTd:10712064,externTd:10845120****
+****localTd:10845120,externTd:10978240****
+****localTd:10978240,externTd:11111425****
+****localTd:11111425,externTd:11244675****
+****localTd:11244675,externTd:11377990****
+****localTd:11377990,externTd:11511370****
+****localTd:11511370,externTd:11644815****
+****localTd:11644815,externTd:11778325****
+****localTd:11778325,externTd:11911900****
+****localTd:11911900,externTd:12045540****
+****localTd:12045540,externTd:12179245****
+****localTd:12179245,externTd:12313015****
+****localTd:12313015,externTd:12446850****
+****localTd:12446850,externTd:12580750****
+****localTd:12580750,externTd:12714715****
+****localTd:12714715,externTd:12848745****
+****localTd:12848745,externTd:12982840****
+****localTd:12982840,externTd:393216****
+****localTd:393216,externTd:524352****
+****localTd:524352,externTd:655552****
+****localTd:655552,externTd:786816****
+****localTd:786816,externTd:918144****
+****localTd:918144,externTd:1049536****
+****localTd:1049536,externTd:1180992****
+****localTd:1180992,externTd:1312512****
+****localTd:1312512,externTd:1444096****
+****localTd:393216,externTd:393216****
+****localTd:1444096,externTd:1575744****
+****localTd:1575744,externTd:1707456****
+****localTd:1707456,externTd:1839232****
+****localTd:1839232,externTd:1971072****
+****localTd:1971072,externTd:2102976****
+****localTd:2102976,externTd:2234944****
+****localTd:2234944,externTd:2366976****
+****localTd:2366976,externTd:2499072****
+****localTd:2499072,externTd:2631232****
+****localTd:2631232,externTd:2763328****
+****localTd:2763328,externTd:2895488****
+****localTd:2895488,externTd:3027712****
+****localTd:3027712,externTd:3160000****
+****localTd:3160000,externTd:3292352****
+****localTd:3292352,externTd:3424768****
+****localTd:3424768,externTd:3557248****
+****localTd:3557248,externTd:3689792****
+****localTd:3689792,externTd:3822400****
+****localTd:3822400,externTd:3955072****
+****localTd:3955072,externTd:4087808****
+****localTd:4087808,externTd:4220608****
+****localTd:4220608,externTd:4353408****
+****localTd:4353408,externTd:4486208****
+****localTd:4486208,externTd:4619072****
+****localTd:4619072,externTd:4752000****
+****localTd:4752000,externTd:4884992****
+****localTd:4884992,externTd:5018048****
+****localTd:5018048,externTd:5151168****
+****localTd:5151168,externTd:5284353****
+****localTd:5284353,externTd:5417603****
+****localTd:5417603,externTd:5550918****
+****localTd:5550918,externTd:5684233****
+****localTd:5684233,externTd:5815305****
+****localTd:5815305,externTd:5946441****
+****localTd:5946441,externTd:6077641****
+****localTd:6077641,externTd:6208905****
+****localTd:6208905,externTd:6340233****
+****localTd:6340233,externTd:6471625****
+****localTd:6471625,externTd:6603081****
+****localTd:6603081,externTd:6734601****
+****localTd:6734601,externTd:6866185****
+****localTd:6866185,externTd:6997833****
+****localTd:1049536,externTd:7129545****
+****localTd:7129545,externTd:7261321****
+****localTd:7261321,externTd:7393161****
+****localTd:7393161,externTd:7525065****
+****localTd:7525065,externTd:7657033****
+****localTd:7657033,externTd:7789065****
+****localTd:7789065,externTd:7921161****
+****localTd:7921161,externTd:8053321****
+****localTd:8053321,externTd:8185545****
+****localTd:8185545,externTd:8317833****
+****localTd:8317833,externTd:8450185****
+****localTd:8450185,externTd:8582601****
+****localTd:8582601,externTd:8715081****
+****localTd:8715081,externTd:8847625****
+****localTd:8847625,externTd:8980233****
+****localTd:8980233,externTd:9112905****
+****localTd:9112905,externTd:9245641****
+****localTd:9245641,externTd:9378441****
+****localTd:5550918,externTd:9511305****
+****localTd:7393161,externTd:9644233****
+****localTd:9644233,externTd:9777225****
+****localTd:9777225,externTd:9910281****
+****localTd:7921161,externTd:10043401****
+****localTd:10043401,externTd:10176586****
+****localTd:10176586,externTd:10309836****
+****localTd:10309836,externTd:10443151****
+****localTd:10443151,externTd:10576531****
+****localTd:10576531,externTd:10709976****
+****localTd:10709976,externTd:10843486****
+****localTd:10843486,externTd:10977061****
+****localTd:10977061,externTd:11110701****
+****localTd:11110701,externTd:11244406****
+****localTd:11244406,externTd:11378176****
+****localTd:11378176,externTd:11512011****
+****localTd:11512011,externTd:11645911****
+****localTd:10043401,externTd:11779876****
+****localTd:10576531,externTd:11913906****
+****localTd:11913906,externTd:12048001****
+****localTd:12048001,externTd:12182161****
+****localTd:12182161,externTd:12316386****
+****localTd:12316386,externTd:12450676****
+****localTd:12450676,externTd:12585031****
+****localTd:12585031,externTd:12048001****
+****localTd:12585031,externTd:12719451****
+****localTd:12719451,externTd:12853936****
+****localTd:12853936,externTd:12988486****
+****localTd:12853936,externTd:12853936****
+****localTd:12988486,externTd:13117000****
+****localTd:13117000,externTd:13123101****
+****localTd:13123101,externTd:13251225****
+****localTd:13251225,externTd:13385515****
+****localTd:13385515,externTd:13257781****
+****localTd:13385515,externTd:13519870****
+****localTd:13519870,externTd:13654290****
+****localTd:13654290,externTd:13788775****
+****localTd:13788775,externTd:13392526****
+****localTd:13392526,externTd:13527336****
+****localTd:13527336,externTd:13662146****
+****localTd:13662146,externTd:13797021****
+****localTd:13797021,externTd:13923325****
+****localTd:13923325,externTd:14057810****
+****localTd:14057810,externTd:14192360****
+****localTd:14192360,externTd:13931961****
+****localTd:13931961,externTd:14326975****
+****localTd:14326975,externTd:14461655****
+****localTd:14461655,externTd:14066966****
+****localTd:14066966,externTd:14202036****
+****localTd:14202036,externTd:14337171****
+****localTd:14337171,externTd:14472371****
+****localTd:14472371,externTd:14596400****
+****localTd:14596400,externTd:14607637****
+****localTd:14607637,externTd:14742969****
+****localTd:14742969,externTd:14731210****
+****localTd:14731210,externTd:14878367****
+****localTd:14878367,externTd:14866085****
+****localTd:14866085,externTd:15013831****
+****localTd:15013831,externTd:15001025****
+****localTd:15001025,externTd:15136030****
+****localTd:15136030,externTd:15271100****
+****localTd:15271100,externTd:15406235****
+****localTd:15406235,externTd:15149361****
+****localTd:15149361,externTd:15284957****
+****localTd:15284957,externTd:15541435****
+****localTd:15541435,externTd:15676701****
+****localTd:15676701,externTd:15420619****
+****localTd:15420619,externTd:15556347****
+****localTd:15676701,externTd:15812033****
+****localTd:15812033,externTd:15947431****
+****localTd:15947431,externTd:16082895****
+****localTd:16082895,externTd:15692141****
+****localTd:15692141,externTd:15827935****
+****localTd:15827935,externTd:15963795****
+****localTd:16082895,externTd:16218425****
+****localTd:16218425,externTd:16353955****
+****localTd:16353955,externTd:16489551****
+****localTd:16489551,externTd:16625213****
+****localTd:16625213,externTd:16099721****
+****localTd:16099721,externTd:16235713****
+****localTd:16235713,externTd:16371771****
+****localTd:16371771,externTd:16507895****
+****localTd:16507895,externTd:16644085****
+****localTd:16644085,externTd:16760941****
+****localTd:16760941,externTd:16896735****
+****localTd:16896735,externTd:17032595****
+****localTd:17032595,externTd:17168521****
+****localTd:17168521,externTd:16780341****
+****localTd:16780341,externTd:16916663****
+****localTd:16916663,externTd:17053051****
+****localTd:17053051,externTd:17304513****
+****localTd:17304513,externTd:17440505****
+****localTd:17440505,externTd:17189505****
+****localTd:17189505,externTd:17326025****
+****localTd:17326025,externTd:17462611****
+****localTd:17462611,externTd:17576563****
+****localTd:17576563,externTd:17712687****
+****localTd:17712687,externTd:17848877****
+****localTd:17848877,externTd:17985133****
+****localTd:17985133,externTd:17599263****
+****localTd:17985133,externTd:18121455****
+****localTd:18121455,externTd:18257843****
+****localTd:18257843,externTd:18394297****
+****localTd:18394297,externTd:18530817****
+****localTd:18530817,externTd:18667403****
+****localTd:18667403,externTd:17735981****
+****localTd:17735981,externTd:17872699****
+****localTd:17872699,externTd:18009483****
+****localTd:18009483,externTd:18146333****
+****localTd:18146333,externTd:18283249****
+****localTd:18667403,externTd:18804055****
+****localTd:18804055,externTd:18940773****
+****localTd:18940773,externTd:19077557****
+****localTd:19077557,externTd:19214407****
+****localTd:19214407,externTd:18420231****
+****localTd:18420231,externTd:18557279****
+****localTd:19214407,externTd:19351323****
+****localTd:19351323,externTd:19488305****
+****localTd:19488305,externTd:19625353****
+****localTd:19625353,externTd:18694393****
+****localTd:18694393,externTd:18831573****
+****localTd:18831573,externTd:18968819****
+****localTd:18968819,externTd:19106132****
+****localTd:19625353,externTd:19762467****
+****localTd:19762467,externTd:19899647****
+****localTd:19899647,externTd:20036893****
+****localTd:20036893,externTd:19243512****
+****localTd:19243512,externTd:19380959****
+****localTd:20036893,externTd:20174206****
+****localTd:20174206,externTd:20311586****
+****localTd:20311586,externTd:20449033****
+****localTd:20449033,externTd:19518473****
+****localTd:19518473,externTd:19656054****
+****localTd:19656054,externTd:19793702****
+****localTd:19793702,externTd:20586547****
+****localTd:20586547,externTd:20724128****
+****localTd:20724128,externTd:20861776****
+****localTd:20861776,externTd:20999491****
+****localTd:20999491,externTd:21137273****
+****localTd:21137273,externTd:21275122****
+****localTd:21275122,externTd:21413038****
+****localTd:21413038,externTd:21551021****
+****localTd:21551021,externTd:21689071****
+****localTd:21689071,externTd:19931417****
+****localTd:19931417,externTd:20069199****
+****localTd:20069199,externTd:20207048****
+****localTd:20207048,externTd:20344964****
+****localTd:20344964,externTd:20482947****
+****localTd:20482947,externTd:20620997****
+****localTd:20620997,externTd:20759114****
+****localTd:21689071,externTd:21827188****
+****localTd:21827188,externTd:21965372****
+****localTd:21965372,externTd:22103623****
+****localTd:22103623,externTd:22241941****
+****localTd:22241941,externTd:22380326****
+****localTd:22380326,externTd:22518778****
+****localTd:22518778,externTd:22657297****
+****localTd:22657297,externTd:22795883****
+****localTd:22795883,externTd:22934536****
+****localTd:22934536,externTd:23073256****
+****localTd:23073256,externTd:23212043****
+****localTd:23212043,externTd:23350897****
+****localTd:23350897,externTd:23489818****
+****localTd:23489818,externTd:23628806****
+****localTd:23628806,externTd:23767861****
+****localTd:23767861,externTd:23906983****
+****localTd:23906983,externTd:24046172****
+****localTd:24046172,externTd:20897298****
+****localTd:20897298,externTd:21035549****
+****localTd:21035549,externTd:21173867****
+****localTd:21173867,externTd:21312252****
+****localTd:21312252,externTd:21450704****
+****localTd:21450704,externTd:21589223****
+****localTd:21589223,externTd:21727809****
+****localTd:21727809,externTd:21866462****
+****localTd:21866462,externTd:22005182****
+****localTd:22005182,externTd:22143969****
+****localTd:22143969,externTd:22282823****
+****localTd:22282823,externTd:22421744****
+****localTd:22421744,externTd:22560732****
+****localTd:22560732,externTd:24185428****
+****localTd:24185428,externTd:24324751****
+****localTd:24324751,externTd:24464142****
+****localTd:24464142,externTd:24603601****
+****localTd:24603601,externTd:22699787****
+****localTd:22699787,externTd:22838909****
+****localTd:22838909,externTd:22978098****
+****localTd:22978098,externTd:23117354****
+****localTd:23117354,externTd:23256677****
+****localTd:23256677,externTd:23396068****
+****localTd:23396068,externTd:23535527****
+****localTd:23535527,externTd:24743128****
+****localTd:24743128,externTd:24882723****
+****localTd:24882723,externTd:25022386****
+****localTd:25022386,externTd:25162117****
+****localTd:25162117,externTd:25301916****
+****localTd:25301916,externTd:25441783****
+****localTd:25441783,externTd:25581718****
+****localTd:25581718,externTd:25721721****
+****localTd:25721721,externTd:25861792****
+****localTd:25861792,externTd:23675054****
+****localTd:23675054,externTd:23814649****
+****localTd:23814649,externTd:23954312****
+****localTd:23954312,externTd:24094043****
+****localTd:24094043,externTd:24233842****
+****localTd:24233842,externTd:24373709****
+****localTd:25861792,externTd:26001931****
+****localTd:26001931,externTd:26142138****
+****localTd:26142138,externTd:26282413****
+****localTd:26282413,externTd:26422756****
+****localTd:26422756,externTd:26563167****
+****localTd:26563167,externTd:26703646****
+****localTd:26703646,externTd:26844193****
+****localTd:26844193,externTd:26984808****
+****localTd:26984808,externTd:27125491****
+****localTd:27125491,externTd:27266242****
+****localTd:27266242,externTd:27407061****
+****localTd:27407061,externTd:24513644****
+****localTd:24513644,externTd:24653647****
+****localTd:24653647,externTd:24793718****
+****localTd:24793718,externTd:24933857****
+****localTd:24933857,externTd:25074064****
+****localTd:25074064,externTd:25214339****
+****localTd:25214339,externTd:25350194****
+****localTd:27407061,externTd:27543460****
+****localTd:27543460,externTd:27679859****
+****localTd:27679859,externTd:25486115****
+****localTd:25486115,externTd:25622102****
+****localTd:25622102,externTd:25758155****
+****localTd:25758155,externTd:25894274****
+****localTd:25894274,externTd:26030459****
+****localTd:26030459,externTd:26166710****
+****localTd:26166710,externTd:26303027****
+****localTd:26303027,externTd:26439410****
+--handler-TX_out--
+****localTd:27679859,externTd:27816324****
+--handler-TX_in--
+**matchIn-txin.To():[18 208 228 56 30 249 74 112 164 146 82 227 91 154 101 250 221 56 114 185]**
+**matchIn-from:[18 208 228 56 30 249 74 112 164 146 82 227 91 154 101 250 221 56 114 185]**
+**matchIn-1-list.pending:&{[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] 0 [] [] {0 0 0} [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] [12 254 30 8 79 170 60 133 190 248 238 90 183 27 7 122 171 7 133 104 91 120 148 123 193 109 22 62 104 186 245 152] [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] 1}**
+****localTd:27816324,externTd:26575859****
+****localTd:26575859,externTd:26712308****
+****localTd:26712308,externTd:27952855****
+****localTd:27952855,externTd:28089452****
+****localTd:28089452,externTd:28226115****
+****localTd:28226115,externTd:28362844****
+****localTd:28362844,externTd:28499639****
+****localTd:28499639,externTd:28636500****
+****localTd:28636500,externTd:26848823****
+****localTd:26848823,externTd:26985404****
+****localTd:26985404,externTd:27122051****
+****localTd:27122051,externTd:27258764****
+****localTd:27258764,externTd:27395543****
+****localTd:27395543,externTd:27532388****
+****localTd:28636500,externTd:28773427****
+****localTd:28773427,externTd:28910420****
+****localTd:28910420,externTd:29047479****
+****localTd:29047479,externTd:29184604****
+****localTd:29184604,externTd:29321795****
+****localTd:29321795,externTd:27669299****
+****localTd:27669299,externTd:27806276****
+****localTd:27806276,externTd:27943319****
+****localTd:27943319,externTd:28080428****
+****localTd:28080428,externTd:28217603****
+****localTd:28217603,externTd:28354844****
+****localTd:29321795,externTd:29459052****
+****localTd:29459052,externTd:29596376****
+****localTd:29596376,externTd:29733767****
+****localTd:29733767,externTd:28492152****
+****localTd:28492152,externTd:28629527****
+****localTd:29733767,externTd:29871225****
+****localTd:29871225,externTd:30008750****
+****localTd:30008750,externTd:30146342****

@@ -1,3 +1,2 @@
-
+admin.nodeInfo.enode
 admin.peers
-miner.stop()

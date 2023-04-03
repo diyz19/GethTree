@@ -1,0 +1,445 @@
+DEBUG[06-08|06:21:36.750] Sanitizing Go's GC trigger               percent=100
+INFO [06-08|06:21:36.751] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [06-08|06:21:36.751] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+DEBUG[06-08|06:21:36.751] FS scan times                            list=31.678µs set=575ns diff=12.012µs
+TRACE[06-08|06:21:36.751] Started watching keystore folder         path=/home/zc/geth_test1/gethdata/keystore
+INFO [06-08|06:21:36.752] Starting peer-to-peer node               instance=Geth/MyEth/v1.9.12-stable-5400f661/linux-amd64/go1.13.9
+INFO [06-08|06:21:36.752] Allocated trie memory caches             clean=256.00MiB dirty=256.00MiB
+INFO [06-08|06:21:36.752] Allocated gtrie memory caches            clean=512.00MiB dirty=512.00MiB
+INFO [06-08|06:21:36.752] Allocated cache and file handles         database=/home/zc/geth_test1/gethdata/geth/chaindata cache=1024.00MiB handles=2048
+DEBUG[06-08|06:21:36.809] Chain freezer table opened               database=/home/zc/geth_test1/gethdata/geth/chaindata/ancient table=bodies items=0 size=0.00B
+DEBUG[06-08|06:21:36.820] Chain freezer table opened               database=/home/zc/geth_test1/gethdata/geth/chaindata/ancient table=receipts items=0 size=0.00B
+DEBUG[06-08|06:21:36.831] Chain freezer table opened               database=/home/zc/geth_test1/gethdata/geth/chaindata/ancient table=diffs    items=0 size=0.00B
+DEBUG[06-08|06:21:36.842] Chain freezer table opened               database=/home/zc/geth_test1/gethdata/geth/chaindata/ancient table=headers  items=0 size=0.00B
+DEBUG[06-08|06:21:36.859] Chain freezer table opened               database=/home/zc/geth_test1/gethdata/geth/chaindata/ancient table=hashes   items=0 size=0.00B
+INFO [06-08|06:21:36.859] Opened ancient database                  database=/home/zc/geth_test1/gethdata/geth/chaindata/ancient
+DEBUG[06-08|06:21:36.859] Current full block not old enough        number=0 hash=68b721…4e12dc delay=90000
+INFO [06-08|06:21:36.859] Initialised chain configuration          config="{ChainID: 91036 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: <nil>, Muir Glacier: <nil>, Engine: unknown}"
+INFO [06-08|06:21:36.859] Disk storage enabled for ethash caches   dir=/home/zc/geth_test1/gethdata/geth/ethash count=3
+INFO [06-08|06:21:36.859] Disk storage enabled for ethash DAGs     dir=/home/zc/.ethash                         count=2
+INFO [06-08|06:21:36.859] Initialising Ethereum protocol           versions="[65 64 63]" network=w dbversion=<nil>
+WARN [06-08|06:21:36.859] Upgrade blockchain database version      from=<nil> to=7
+INFO [06-08|06:21:36.860] Loaded most recent local header          number=0 hash=68b721…4e12dc td=131072 age=53y2mo1w
+INFO [06-08|06:21:36.860] Loaded most recent local full block      number=0 hash=68b721…4e12dc td=131072 age=53y2mo1w
+INFO [06-08|06:21:36.860] Loaded most recent local fast block      number=0 hash=68b721…4e12dc td=131072 age=53y2mo1w
+DEBUG[06-08|06:21:36.860] Reinjecting stale transactions           count=0
+INFO [06-08|06:21:36.860] Regenerated local transaction journal    transactions=0 accounts=0
+DEBUG[06-08|06:21:36.860] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[06-08|06:21:36.915] TCP listener up                          addr=[::]:30301
+DEBUG[06-08|06:21:36.915] InProc registered                        namespace=admin
+DEBUG[06-08|06:21:36.915] InProc registered                        namespace=admin
+DEBUG[06-08|06:21:36.915] InProc registered                        namespace=debug
+DEBUG[06-08|06:21:36.915] InProc registered                        namespace=web3
+DEBUG[06-08|06:21:36.915] InProc registered                        namespace=eth
+DEBUG[06-08|06:21:36.915] InProc registered                        namespace=eth
+INFO [06-08|06:21:36.915] New local node record                    seq=1 id=291c09ed41d7395e ip=127.0.0.1 udp=0 tcp=30301
+INFO [06-08|06:21:36.915] Started P2P networking                   self="enode://79ac6fb437cc71dbe8ebdf6721a6398925c99808094be8db3d1b9d228a81238cec200fcae2b2faaf6a22331d263174a229f7ee10248f94fa848a40cf5d9461f1@127.0.0.1:30301?discport=0"
+DEBUG[06-08|06:21:36.915] InProc registered                        namespace=eth
+DEBUG[06-08|06:21:36.915] InProc registered                        namespace=txpool
+DEBUG[06-08|06:21:36.915] InProc registered                        namespace=debug
+DEBUG[06-08|06:21:36.915] InProc registered                        namespace=debug
+DEBUG[06-08|06:21:36.915] InProc registered                        namespace=eth
+DEBUG[06-08|06:21:36.915] InProc registered                        namespace=personal
+DEBUG[06-08|06:21:36.915] InProc registered                        namespace=eth
+DEBUG[06-08|06:21:36.916] InProc registered                        namespace=ethash
+DEBUG[06-08|06:21:36.916] InProc registered                        namespace=eth
+DEBUG[06-08|06:21:36.916] InProc registered                        namespace=eth
+DEBUG[06-08|06:21:36.916] InProc registered                        namespace=eth
+DEBUG[06-08|06:21:36.916] InProc registered                        namespace=miner
+DEBUG[06-08|06:21:36.916] InProc registered                        namespace=eth
+DEBUG[06-08|06:21:36.916] InProc registered                        namespace=admin
+DEBUG[06-08|06:21:36.916] InProc registered                        namespace=debug
+DEBUG[06-08|06:21:36.916] InProc registered                        namespace=debug
+DEBUG[06-08|06:21:36.916] InProc registered                        namespace=net
+DEBUG[06-08|06:21:36.916] IPC registered                           namespace=admin
+DEBUG[06-08|06:21:36.916] IPC registered                           namespace=admin
+DEBUG[06-08|06:21:36.916] IPC registered                           namespace=debug
+DEBUG[06-08|06:21:36.916] IPC registered                           namespace=web3
+DEBUG[06-08|06:21:36.916] IPC registered                           namespace=eth
+DEBUG[06-08|06:21:36.916] IPC registered                           namespace=eth
+DEBUG[06-08|06:21:36.916] IPC registered                           namespace=eth
+DEBUG[06-08|06:21:36.916] IPC registered                           namespace=txpool
+DEBUG[06-08|06:21:36.916] IPC registered                           namespace=debug
+DEBUG[06-08|06:21:36.916] IPC registered                           namespace=debug
+DEBUG[06-08|06:21:36.916] IPC registered                           namespace=eth
+DEBUG[06-08|06:21:36.916] IPC registered                           namespace=personal
+DEBUG[06-08|06:21:36.916] IPC registered                           namespace=eth
+DEBUG[06-08|06:21:36.916] IPC registered                           namespace=ethash
+DEBUG[06-08|06:21:36.916] IPC registered                           namespace=eth
+DEBUG[06-08|06:21:36.916] IPC registered                           namespace=eth
+DEBUG[06-08|06:21:36.916] IPC registered                           namespace=eth
+DEBUG[06-08|06:21:36.916] IPC registered                           namespace=miner
+DEBUG[06-08|06:21:36.916] IPC registered                           namespace=eth
+DEBUG[06-08|06:21:36.916] IPC registered                           namespace=admin
+DEBUG[06-08|06:21:36.916] IPC registered                           namespace=debug
+DEBUG[06-08|06:21:36.916] IPC registered                           namespace=debug
+DEBUG[06-08|06:21:36.916] IPC registered                           namespace=net
+INFO [06-08|06:21:36.916] IPC endpoint opened                      url=/home/zc/geth_test1/gethdata/geth.ipc
+DEBUG[06-08|06:21:36.917] HTTP registered                          namespace=web3
+DEBUG[06-08|06:21:36.917] HTTP registered                          namespace=eth
+DEBUG[06-08|06:21:36.917] HTTP registered                          namespace=eth
+DEBUG[06-08|06:21:36.917] HTTP registered                          namespace=eth
+DEBUG[06-08|06:21:36.917] HTTP registered                          namespace=eth
+DEBUG[06-08|06:21:36.917] HTTP registered                          namespace=personal
+DEBUG[06-08|06:21:36.917] HTTP registered                          namespace=eth
+DEBUG[06-08|06:21:36.917] HTTP registered                          namespace=eth
+DEBUG[06-08|06:21:36.917] HTTP registered                          namespace=eth
+DEBUG[06-08|06:21:36.917] HTTP registered                          namespace=eth
+DEBUG[06-08|06:21:36.917] HTTP registered                          namespace=miner
+DEBUG[06-08|06:21:36.917] HTTP registered                          namespace=eth
+DEBUG[06-08|06:21:36.917] HTTP registered                          namespace=net
+INFO [06-08|06:21:36.917] HTTP endpoint opened                     url=http://127.0.0.1:8541                 cors=* vhosts=localhost
+INFO [06-08|06:21:36.921] Mapped network port                      proto=tcp extport=30301 intport=30301 interface=NAT-PMP(192.168.1.1)
+DEBUG[06-08|06:21:36.953] Served rpc_modules                       reqid=1 t=41.371µs
+TRACE[06-08|06:21:36.953] Handled RPC response                     reqid=1 t=695ns
+DEBUG[06-08|06:21:36.955] Served web3_clientVersion                reqid=2 t=24.554µs
+TRACE[06-08|06:21:36.955] Handled RPC response                     reqid=2 t=616ns
+WARN [06-08|06:21:36.955] Served eth_coinbase                      reqid=3 t=11.997µs err="etherbase must be explicitly specified"
+TRACE[06-08|06:21:36.955] Handled RPC response                     reqid=3 t=440ns
+DEBUG[06-08|06:21:36.955] Served eth_blockNumber                   reqid=4 t=19.657µs
+TRACE[06-08|06:21:36.955] Handled RPC response                     reqid=4 t=541ns
+DEBUG[06-08|06:21:36.955] Served eth_blockNumber                   reqid=5 t=11.936µs
+TRACE[06-08|06:21:36.956] Handled RPC response                     reqid=5 t=536ns
+DEBUG[06-08|06:21:36.956] Served eth_getBlockByNumber              reqid=6 t=146.355µs
+TRACE[06-08|06:21:36.956] Handled RPC response                     reqid=6 t=524ns
+DEBUG[06-08|06:21:36.957] Served admin_datadir                     reqid=7 t=20.869µs
+TRACE[06-08|06:21:36.957] Handled RPC response                     reqid=7 t=437ns
+DEBUG[06-08|06:21:36.957] Served rpc_modules                       reqid=8 t=13.946µs
+TRACE[06-08|06:21:36.957] Handled RPC response                     reqid=8 t=277ns
+TRACE[06-08|06:21:45.599] Ignoring file on account scan            path=/home/zc/geth_test1/gethdata/keystore/.UTC--2022-06-07T22-21-44.482025753Z--028f4ba0f3cba4b26452710be381c7809e203b2a.tmp943132978
+DEBUG[06-08|06:21:45.599] FS scan times                            list=86.496µs set=48.043µs diff=838ns
+INFO [06-08|06:21:45.712] Your new key was generated               address=0x028f4BA0F3CbA4B26452710Be381c7809E203b2A
+WARN [06-08|06:21:45.712] Please backup your key file!             path=/home/zc/geth_test1/gethdata/keystore/UTC--2022-06-07T22-21-44.482025753Z--028f4ba0f3cba4b26452710be381c7809e203b2a
+WARN [06-08|06:21:45.712] Please remember your password! 
+DEBUG[06-08|06:21:45.712] Served personal_newAccount               reqid=9 t=1.230730023s
+TRACE[06-08|06:21:45.712] Handled RPC response                     reqid=9 t=1.258µs
+DEBUG[06-08|06:21:46.212] FS scan times                            list=53.063µs set=4.542µs  diff=1.551µs
+TRACE[06-08|06:21:46.212] Handled keystore changes                 time=30.958µs
+DEBUG[06-08|06:21:46.304] Served eth_accounts                      reqid=10 t=27.907µs
+TRACE[06-08|06:21:46.304] Handled RPC response                     reqid=10 t=557ns
+DEBUG[06-08|06:21:46.304] Served eth_setBranchBlock                reqid=11 t=202.622µs
+TRACE[06-08|06:21:46.304] Handled RPC response                     reqid=11 t=460ns
+DEBUG[06-08|06:21:56.860] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[06-08|06:22:16.860] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[06-08|06:22:36.859] Current full block not old enough        number=0 hash=68b721…4e12dc delay=90000
+DEBUG[06-08|06:22:36.861] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[06-08|06:22:41.659] Accepted connection                      addr=127.0.0.1:37190
+DEBUG[06-08|06:22:41.668] Adding p2p peer                          peercount=1 id=ed5e443b0d7e8831 conn=inbound addr=127.0.0.1:37190 name=Geth/MyEth/v1.9.12-s...
+INFO [06-08|06:22:41.668] Looking for peers                        peercount=1 tried=0 static=0
+TRACE[06-08|06:22:41.668] Starting protocol eth/65                 id=ed5e443b0d7e8831 conn=inbound
+DEBUG[06-08|06:22:41.668] Ethereum peer connected                  id=ed5e443b0d7e8831 conn=inbound name=Geth/MyEth/v1.9.12-stable-5400f661/linux-amd64/go1.13.9
+TRACE[06-08|06:22:41.669] Registering sync peer                    peer=ed5e443b0d7e8831
+DEBUG[06-08|06:22:46.915] Synchronising with the network           peer=ed5e443b0d7e8831 eth=65 head=68b721…4e12dc td=131072 mode=branch
+DEBUG[06-08|06:22:46.915] Retrieving remote chain height           peer=ed5e443b0d7e8831
+DEBUG[06-08|06:22:46.915] Fetching batch of headers                id=ed5e443b0d7e8831 conn=inbound count=1 fromhash=68b721…4e12dc skip=0 reverse=false
+TRACE[06-08|06:22:46.916] Filtering headers                        peer=ed5e443b0d7e8831 headers=1
+DEBUG[06-08|06:22:46.916] Failed to deliver headers                err="no sync active"
+DEBUG[06-08|06:22:56.861] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[06-08|06:22:56.915] Synchronising with the network           peer=ed5e443b0d7e8831 eth=65 head=68b721…4e12dc td=131072 mode=branch
+DEBUG[06-08|06:22:56.915] Retrieving remote chain height           peer=ed5e443b0d7e8831
+DEBUG[06-08|06:22:56.915] Fetching batch of headers                id=ed5e443b0d7e8831 conn=inbound count=1 fromhash=68b721…4e12dc skip=0 reverse=false
+TRACE[06-08|06:22:56.915] Filtering headers                        peer=ed5e443b0d7e8831 headers=1
+DEBUG[06-08|06:22:56.915] Failed to deliver headers                err="no sync active"
+DEBUG[06-08|06:23:05.830] Queued propagated block                  peer=ed5e443b0d7e8831 number=2 hash=d6df13…4577a0 queued=1
+DEBUG[06-08|06:23:05.830] Importing propagated block               peer=ed5e443b0d7e8831 number=2 hash=d6df13…4577a0
+TRACE[06-08|06:23:05.830] Requiring new ethash cache               epoch=0
+TRACE[06-08|06:23:05.830] Requiring new future ethash cache        epoch=1
+DEBUG[06-08|06:23:05.830] Failed to load old ethash cache          epoch=0 err="open /home/zc/geth_test1/gethdata/geth/ethash/cache-R23-0000000000000000: no such file or directory"
+TRACE[06-08|06:23:06.330] Fetching scheduled headers               peer=ed5e443b0d7e8831 list="[[214 223 19 137 164 89 135 73 170 245 110 10 165 208 180 252 57 59 38 143 194 104 196 221 133 234 200 56 99 69 119 160]]"
+DEBUG[06-08|06:23:06.330] Fetching single header                   id=ed5e443b0d7e8831 conn=inbound hash=d6df13…4577a0
+TRACE[06-08|06:23:06.330] Filtering headers                        peer=ed5e443b0d7e8831 headers=1
+DEBUG[06-08|06:23:06.330] Failed to deliver headers                err="no sync active"
+DEBUG[06-08|06:23:06.374] Generated ethash verification cache      epoch=0 elapsed=543.966ms
+DEBUG[06-08|06:23:06.375] Failed to load old ethash cache          epoch=1 err="open /home/zc/geth_test1/gethdata/geth/ethash/cache-R23-290decd9548b62a8: no such file or directory"
+DEBUG[06-08|06:23:06.378] Propagated block verification failed     peer=ed5e443b0d7e8831 number=2 hash=d6df13…4577a0 err="invalid mix digest"
+DEBUG[06-08|06:23:06.378] Removing Ethereum peer                   peer=ed5e443b0d7e8831
+TRACE[06-08|06:23:06.378] Unregistering sync peer                  peer=ed5e443b0d7e8831
+DEBUG[06-08|06:23:06.378] Ethereum message handling failed         id=ed5e443b0d7e8831 conn=inbound err=EOF
+DEBUG[06-08|06:23:06.378] Removing p2p peer                        peercount=0 id=ed5e443b0d7e8831 duration=24.710s req=false err="useless peer"
+INFO [06-08|06:23:06.378] Looking for peers                        peercount=0 tried=0 static=0
+DEBUG[06-08|06:23:06.918] Generated ethash verification cache      epoch=1 elapsed=543.214ms
+TRACE[06-08|06:23:16.659] Accepted connection                      addr=127.0.0.1:37192
+DEBUG[06-08|06:23:16.662] Adding p2p peer                          peercount=1 id=ed5e443b0d7e8831 conn=inbound addr=127.0.0.1:37192 name=Geth/MyEth/v1.9.12-s...
+INFO [06-08|06:23:16.662] Looking for peers                        peercount=1 tried=0 static=0
+TRACE[06-08|06:23:16.662] Starting protocol eth/65                 id=ed5e443b0d7e8831 conn=inbound
+DEBUG[06-08|06:23:16.662] Ethereum peer connected                  id=ed5e443b0d7e8831 conn=inbound name=Geth/MyEth/v1.9.12-stable-5400f661/linux-amd64/go1.13.9
+TRACE[06-08|06:23:16.663] Registering sync peer                    peer=ed5e443b0d7e8831
+DEBUG[06-08|06:23:16.861] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[06-08|06:23:16.915] Synchronising with the network           peer=ed5e443b0d7e8831 eth=65 head=68b721…4e12dc td=131072 mode=branch
+DEBUG[06-08|06:23:16.915] Retrieving remote chain height           peer=ed5e443b0d7e8831
+DEBUG[06-08|06:23:16.915] Fetching batch of headers                id=ed5e443b0d7e8831 conn=inbound count=1 fromhash=68b721…4e12dc skip=0 reverse=false
+TRACE[06-08|06:23:16.915] Filtering headers                        peer=ed5e443b0d7e8831 headers=1
+DEBUG[06-08|06:23:16.916] Failed to deliver headers                err="no sync active"
+DEBUG[06-08|06:23:21.304] Served eth_blockNumber                   reqid=12 t=22.909µs
+TRACE[06-08|06:23:21.304] Handled RPC response                     reqid=12 t=918ns
+DEBUG[06-08|06:23:26.915] Synchronising with the network           peer=ed5e443b0d7e8831 eth=65 head=68b721…4e12dc td=131072 mode=branch
+DEBUG[06-08|06:23:26.915] Retrieving remote chain height           peer=ed5e443b0d7e8831
+DEBUG[06-08|06:23:26.915] Fetching batch of headers                id=ed5e443b0d7e8831 conn=inbound count=1 fromhash=68b721…4e12dc skip=0 reverse=false
+TRACE[06-08|06:23:26.915] Filtering headers                        peer=ed5e443b0d7e8831 headers=1
+DEBUG[06-08|06:23:26.915] Failed to deliver headers                err="no sync active"
+DEBUG[06-08|06:23:36.859] Current full block not old enough        number=0 hash=68b721…4e12dc delay=90000
+DEBUG[06-08|06:23:36.861] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[06-08|06:23:36.915] Synchronising with the network           peer=ed5e443b0d7e8831 eth=65 head=68b721…4e12dc td=131072 mode=branch
+DEBUG[06-08|06:23:36.915] Retrieving remote chain height           peer=ed5e443b0d7e8831
+DEBUG[06-08|06:23:36.915] Fetching batch of headers                id=ed5e443b0d7e8831 conn=inbound count=1 fromhash=68b721…4e12dc skip=0 reverse=false
+TRACE[06-08|06:23:36.915] Filtering headers                        peer=ed5e443b0d7e8831 headers=1
+DEBUG[06-08|06:23:36.915] Failed to deliver headers                err="no sync active"
+DEBUG[06-08|06:23:46.915] Synchronising with the network           peer=ed5e443b0d7e8831 eth=65 head=68b721…4e12dc td=131072 mode=branch
+DEBUG[06-08|06:23:46.915] Retrieving remote chain height           peer=ed5e443b0d7e8831
+DEBUG[06-08|06:23:46.915] Fetching batch of headers                id=ed5e443b0d7e8831 conn=inbound count=1 fromhash=68b721…4e12dc skip=0 reverse=false
+DEBUG[06-08|06:23:46.915] Waiting for head header timed out        peer=ed5e443b0d7e8831 elapsed=1m0s
+DEBUG[06-08|06:23:46.915] Synchronisation terminated               elapsed=1m0.000s
+WARN [06-08|06:23:46.915] Synchronisation failed, dropping peer    peer=ed5e443b0d7e8831 err=timeout
+DEBUG[06-08|06:23:46.915] Removing Ethereum peer                   peer=ed5e443b0d7e8831
+TRACE[06-08|06:23:46.915] Unregistering sync peer                  peer=ed5e443b0d7e8831
+TRACE[06-08|06:23:46.915] Filtering headers                        peer=ed5e443b0d7e8831 headers=1
+DEBUG[06-08|06:23:46.915] Failed to deliver headers                err="no sync active"
+DEBUG[06-08|06:23:46.916] Ethereum message handling failed         id=ed5e443b0d7e8831 conn=inbound err=EOF
+DEBUG[06-08|06:23:46.916] Removing p2p peer                        peercount=0 id=ed5e443b0d7e8831 duration=30.253s req=false err="useless peer"
+INFO [06-08|06:23:46.916] Looking for peers                        peercount=0 tried=0 static=0
+TRACE[06-08|06:23:51.659] Accepted connection                      addr=127.0.0.1:37194
+DEBUG[06-08|06:23:51.669] Adding p2p peer                          peercount=1 id=ed5e443b0d7e8831 conn=inbound addr=127.0.0.1:37194 name=Geth/MyEth/v1.9.12-s...
+TRACE[06-08|06:23:51.669] Starting protocol eth/65                 id=ed5e443b0d7e8831 conn=inbound
+DEBUG[06-08|06:23:51.669] Ethereum peer connected                  id=ed5e443b0d7e8831 conn=inbound name=Geth/MyEth/v1.9.12-stable-5400f661/linux-amd64/go1.13.9
+TRACE[06-08|06:23:51.670] Registering sync peer                    peer=ed5e443b0d7e8831
+DEBUG[06-08|06:23:56.861] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[06-08|06:23:56.915] Synchronising with the network           peer=ed5e443b0d7e8831 eth=65 head=68b721…4e12dc td=131072 mode=branch
+DEBUG[06-08|06:23:56.915] Retrieving remote chain height           peer=ed5e443b0d7e8831
+DEBUG[06-08|06:23:56.915] Fetching batch of headers                id=ed5e443b0d7e8831 conn=inbound count=1 fromhash=68b721…4e12dc skip=0 reverse=false
+DEBUG[06-08|06:23:56.915] Waiting for head header timed out        peer=ed5e443b0d7e8831 elapsed=1m0s
+DEBUG[06-08|06:23:56.915] Synchronisation terminated               elapsed=1m0.000s
+WARN [06-08|06:23:56.915] Synchronisation failed, dropping peer    peer=ed5e443b0d7e8831 err=timeout
+DEBUG[06-08|06:23:56.915] Removing Ethereum peer                   peer=ed5e443b0d7e8831
+TRACE[06-08|06:23:56.915] Unregistering sync peer                  peer=ed5e443b0d7e8831
+TRACE[06-08|06:23:56.915] Filtering headers                        peer=ed5e443b0d7e8831 headers=1
+DEBUG[06-08|06:23:56.915] Failed to deliver headers                err="no sync active"
+DEBUG[06-08|06:23:56.915] Ethereum message handling failed         id=ed5e443b0d7e8831 conn=inbound err=EOF
+DEBUG[06-08|06:23:56.915] Removing p2p peer                        peercount=0 id=ed5e443b0d7e8831 duration=5.246s  req=false err="useless peer"
+DEBUG[06-08|06:24:16.861] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[06-08|06:24:16.915] Waiting for head header timed out        peer=ed5e443b0d7e8831 elapsed=1m0s
+DEBUG[06-08|06:24:16.915] Synchronisation terminated               elapsed=1m0.000s
+WARN [06-08|06:24:16.915] Synchronisation failed, dropping peer    peer=ed5e443b0d7e8831 err=timeout
+TRACE[06-08|06:24:26.660] Accepted connection                      addr=127.0.0.1:37196
+DEBUG[06-08|06:24:26.669] Adding p2p peer                          peercount=1 id=ed5e443b0d7e8831 conn=inbound addr=127.0.0.1:37196 name=Geth/MyEth/v1.9.12-s...
+INFO [06-08|06:24:26.669] Looking for peers                        peercount=1 tried=0 static=0
+TRACE[06-08|06:24:26.669] Starting protocol eth/65                 id=ed5e443b0d7e8831 conn=inbound
+DEBUG[06-08|06:24:26.670] Ethereum peer connected                  id=ed5e443b0d7e8831 conn=inbound name=Geth/MyEth/v1.9.12-stable-5400f661/linux-amd64/go1.13.9
+TRACE[06-08|06:24:26.670] Registering sync peer                    peer=ed5e443b0d7e8831
+DEBUG[06-08|06:24:26.915] Synchronising with the network           peer=ed5e443b0d7e8831 eth=65 head=68b721…4e12dc td=131072 mode=branch
+DEBUG[06-08|06:24:26.915] Retrieving remote chain height           peer=ed5e443b0d7e8831
+DEBUG[06-08|06:24:26.915] Fetching batch of headers                id=ed5e443b0d7e8831 conn=inbound count=1 fromhash=68b721…4e12dc skip=0 reverse=false
+DEBUG[06-08|06:24:26.915] Waiting for head header timed out        peer=ed5e443b0d7e8831 elapsed=1m0s
+DEBUG[06-08|06:24:26.915] Synchronisation terminated               elapsed=1m0.000s
+WARN [06-08|06:24:26.915] Synchronisation failed, dropping peer    peer=ed5e443b0d7e8831 err=timeout
+DEBUG[06-08|06:24:26.915] Removing Ethereum peer                   peer=ed5e443b0d7e8831
+TRACE[06-08|06:24:26.915] Unregistering sync peer                  peer=ed5e443b0d7e8831
+DEBUG[06-08|06:24:26.915] Ethereum message handling failed         id=ed5e443b0d7e8831 conn=inbound err=EOF
+DEBUG[06-08|06:24:26.915] Removing p2p peer                        peercount=0 id=ed5e443b0d7e8831 duration=246.153ms req=false err="useless peer"
+DEBUG[06-08|06:24:36.860] Current full block not old enough        number=0 hash=68b721…4e12dc delay=90000
+DEBUG[06-08|06:24:36.862] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[06-08|06:24:36.915] Waiting for head header timed out        peer=ed5e443b0d7e8831 elapsed=1m0s
+DEBUG[06-08|06:24:36.915] Synchronisation terminated               elapsed=1m0.000s
+WARN [06-08|06:24:36.915] Synchronisation failed, dropping peer    peer=ed5e443b0d7e8831 err=timeout
+DEBUG[06-08|06:24:46.915] Waiting for head header timed out        peer=ed5e443b0d7e8831 elapsed=1m0s
+DEBUG[06-08|06:24:46.915] Synchronisation terminated               elapsed=1m0.000s
+WARN [06-08|06:24:46.915] Synchronisation failed, dropping peer    peer=ed5e443b0d7e8831 err=timeout
+DEBUG[06-08|06:24:56.862] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[06-08|06:24:56.915] Waiting for head header timed out        peer=ed5e443b0d7e8831 elapsed=1m0s
+DEBUG[06-08|06:24:56.915] Synchronisation terminated               elapsed=1m0.000s
+WARN [06-08|06:24:56.915] Synchronisation failed, dropping peer    peer=ed5e443b0d7e8831 err=timeout
+TRACE[06-08|06:25:01.660] Accepted connection                      addr=127.0.0.1:37198
+DEBUG[06-08|06:25:01.662] Adding p2p peer                          peercount=1 id=ed5e443b0d7e8831 conn=inbound addr=127.0.0.1:37198 name=Geth/MyEth/v1.9.12-s...
+TRACE[06-08|06:25:01.662] Starting protocol eth/65                 id=ed5e443b0d7e8831 conn=inbound
+DEBUG[06-08|06:25:01.662] Ethereum peer connected                  id=ed5e443b0d7e8831 conn=inbound name=Geth/MyEth/v1.9.12-stable-5400f661/linux-amd64/go1.13.9
+INFO [06-08|06:25:01.662] Looking for peers                        peercount=1 tried=0 static=0
+TRACE[06-08|06:25:01.662] Registering sync peer                    peer=ed5e443b0d7e8831
+DEBUG[06-08|06:25:06.915] Synchronising with the network           peer=ed5e443b0d7e8831 eth=65 head=68b721…4e12dc td=131072 mode=branch
+DEBUG[06-08|06:25:06.915] Retrieving remote chain height           peer=ed5e443b0d7e8831
+DEBUG[06-08|06:25:06.915] Fetching batch of headers                id=ed5e443b0d7e8831 conn=inbound count=1 fromhash=68b721…4e12dc skip=0 reverse=false
+TRACE[06-08|06:25:06.915] Filtering headers                        peer=ed5e443b0d7e8831 headers=1
+DEBUG[06-08|06:25:06.915] Failed to deliver headers                err="no sync active"
+DEBUG[06-08|06:25:12.730] Queued propagated block                  peer=ed5e443b0d7e8831 number=3 hash=5aa0d2…6c6c6d queued=1
+DEBUG[06-08|06:25:12.730] Importing propagated block               peer=ed5e443b0d7e8831 number=3 hash=5aa0d2…6c6c6d
+TRACE[06-08|06:25:12.733] Propagated block                         hash=5aa0d2…6c6c6d recipients=0 duration=3.500ms
+DEBUG[06-08|06:25:12.736] Inserted new block                       number=3 hash=5aa0d2…6c6c6d uncles=0 txs=0 gas=0 elapsed=183.481µs root=e16314…470c44 regionroot=4caf93…2d0509
+INFO [06-08|06:25:12.736] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=3.430ms   mgasps=0.000 number=3 regionid="[119 50]" hash=5aa0d2…6c6c6d age=1m42s    dirty=486.00B   rdirty=0.00B
+TRACE[06-08|06:25:12.737] Announced block                          hash=5aa0d2…6c6c6d recipients=0 duration=7.025ms
+DEBUG[06-08|06:25:12.737] Reinjecting stale transactions           count=0
+DEBUG[06-08|06:25:12.792] Queued propagated block                  peer=ed5e443b0d7e8831 number=4 hash=b4e107…7ec1a7 queued=1
+DEBUG[06-08|06:25:12.792] Importing propagated block               peer=ed5e443b0d7e8831 number=4 hash=b4e107…7ec1a7
+DEBUG[06-08|06:25:12.792] Synchronising with the network           peer=ed5e443b0d7e8831 eth=65 head=5aa0d2…6c6c6d td=524288 mode=branch
+DEBUG[06-08|06:25:12.793] Retrieving remote chain height           peer=ed5e443b0d7e8831
+DEBUG[06-08|06:25:12.793] Fetching batch of headers                id=ed5e443b0d7e8831 conn=inbound count=1 fromhash=5aa0d2…6c6c6d skip=0 reverse=false
+TRACE[06-08|06:25:12.793] Filtering headers                        peer=ed5e443b0d7e8831 headers=1
+DEBUG[06-08|06:25:12.793] Failed to deliver headers                err="no sync active"
+TRACE[06-08|06:25:12.795] Propagated block                         hash=b4e107…7ec1a7 recipients=0 duration=3.438ms
+DEBUG[06-08|06:25:12.798] Inserted new block                       number=4 hash=b4e107…7ec1a7 uncles=0 txs=0 gas=0 elapsed=154.979µs root=fe33c8…65c592 regionroot=4caf93…2d0509
+INFO [06-08|06:25:12.798] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=3.135ms   mgasps=0.000 number=4 regionid="[119 50]" hash=b4e107…7ec1a7 dirty=972.00B   rdirty=0.00B
+DEBUG[06-08|06:25:12.798] Reinjecting stale transactions           count=0
+TRACE[06-08|06:25:12.798] Announced block                          hash=b4e107…7ec1a7 recipients=0 duration=6.759ms
+DEBUG[06-08|06:25:14.413] Synchronising with the network           peer=ed5e443b0d7e8831 eth=65 head=b4e107…7ec1a7 td=655360 mode=branch
+DEBUG[06-08|06:25:14.413] Retrieving remote chain height           peer=ed5e443b0d7e8831
+DEBUG[06-08|06:25:14.413] Fetching batch of headers                id=ed5e443b0d7e8831 conn=inbound count=1 fromhash=b4e107…7ec1a7 skip=0 reverse=false
+DEBUG[06-08|06:25:14.413] Queued propagated block                  peer=ed5e443b0d7e8831 number=5 hash=39948c…11b3d0 queued=1
+DEBUG[06-08|06:25:14.414] Importing propagated block               peer=ed5e443b0d7e8831 number=5 hash=39948c…11b3d0
+TRACE[06-08|06:25:14.414] Filtering headers                        peer=ed5e443b0d7e8831 headers=1
+DEBUG[06-08|06:25:14.414] Failed to deliver headers                err="no sync active"
+TRACE[06-08|06:25:14.417] Propagated block                         hash=39948c…11b3d0 recipients=0 duration=3.649ms
+DEBUG[06-08|06:25:14.420] Inserted new block                       number=5 hash=39948c…11b3d0 uncles=0 txs=0 gas=0 elapsed=131.765µs root=eb1387…4f8128 regionroot=4caf93…2d0509
+INFO [06-08|06:25:14.420] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=3.369ms   mgasps=0.000 number=5 regionid="[119 50]" hash=39948c…11b3d0 dirty=1.42KiB   rdirty=0.00B
+DEBUG[06-08|06:25:14.420] Reinjecting stale transactions           count=0
+TRACE[06-08|06:25:14.420] Announced block                          hash=39948c…11b3d0 recipients=0 duration=7.195ms
+DEBUG[06-08|06:25:16.226] Synchronising with the network           peer=ed5e443b0d7e8831 eth=65 head=39948c…11b3d0 td=786496 mode=branch
+DEBUG[06-08|06:25:16.226] Retrieving remote chain height           peer=ed5e443b0d7e8831
+DEBUG[06-08|06:25:16.226] Fetching batch of headers                id=ed5e443b0d7e8831 conn=inbound count=1 fromhash=39948c…11b3d0 skip=0 reverse=false
+DEBUG[06-08|06:25:16.226] Queued propagated block                  peer=ed5e443b0d7e8831 number=6 hash=bdc3ad…c9fb07 queued=1
+DEBUG[06-08|06:25:16.226] Importing propagated block               peer=ed5e443b0d7e8831 number=6 hash=bdc3ad…c9fb07
+TRACE[06-08|06:25:16.226] Filtering headers                        peer=ed5e443b0d7e8831 headers=1
+DEBUG[06-08|06:25:16.226] Failed to deliver headers                err="no sync active"
+TRACE[06-08|06:25:16.230] Propagated block                         hash=bdc3ad…c9fb07 recipients=0 duration=3.523ms
+DEBUG[06-08|06:25:16.233] Inserted new block                       number=6 hash=bdc3ad…c9fb07 uncles=0 txs=0 gas=0 elapsed=184.024µs root=6b808b…a0ae06 regionroot=4caf93…2d0509
+INFO [06-08|06:25:16.233] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=3.308ms   mgasps=0.000 number=6 regionid="[119 50]" hash=bdc3ad…c9fb07 dirty=1.90KiB   rdirty=0.00B
+TRACE[06-08|06:25:16.233] Announced block                          hash=bdc3ad…c9fb07 recipients=0 duration=6.983ms
+DEBUG[06-08|06:25:16.233] Reinjecting stale transactions           count=0
+DEBUG[06-08|06:25:16.862] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[06-08|06:25:16.915] Synchronising with the network           peer=ed5e443b0d7e8831 eth=65 head=39948c…11b3d0 td=786496 mode=branch
+DEBUG[06-08|06:25:16.915] Retrieving remote chain height           peer=ed5e443b0d7e8831
+DEBUG[06-08|06:25:16.915] Fetching batch of headers                id=ed5e443b0d7e8831 conn=inbound count=1 fromhash=39948c…11b3d0 skip=0 reverse=false
+TRACE[06-08|06:25:16.915] Filtering headers                        peer=ed5e443b0d7e8831 headers=1
+DEBUG[06-08|06:25:16.915] Failed to deliver headers                err="no sync active"
+DEBUG[06-08|06:25:19.709] Queued propagated block                  peer=ed5e443b0d7e8831 number=7 hash=cba1e8…affdff queued=1
+DEBUG[06-08|06:25:19.709] Importing propagated block               peer=ed5e443b0d7e8831 number=7 hash=cba1e8…affdff
+DEBUG[06-08|06:25:19.709] Synchronising with the network           peer=ed5e443b0d7e8831 eth=65 head=bdc3ad…c9fb07 td=917696 mode=branch
+DEBUG[06-08|06:25:19.709] Retrieving remote chain height           peer=ed5e443b0d7e8831
+DEBUG[06-08|06:25:19.709] Fetching batch of headers                id=ed5e443b0d7e8831 conn=inbound count=1 fromhash=bdc3ad…c9fb07 skip=0 reverse=false
+TRACE[06-08|06:25:19.710] Filtering headers                        peer=ed5e443b0d7e8831 headers=1
+DEBUG[06-08|06:25:19.710] Failed to deliver headers                err="no sync active"
+TRACE[06-08|06:25:19.713] Propagated block                         hash=cba1e8…affdff recipients=0 duration=3.497ms
+DEBUG[06-08|06:25:19.716] Inserted new block                       number=7 hash=cba1e8…affdff uncles=0 txs=0 gas=0 elapsed=125.466µs root=03137d…d9d603 regionroot=4caf93…2d0509
+INFO [06-08|06:25:19.716] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=3.269ms   mgasps=0.000 number=7 regionid="[119 50]" hash=cba1e8…affdff dirty=2.37KiB   rdirty=0.00B
+DEBUG[06-08|06:25:19.716] Reinjecting stale transactions           count=0
+TRACE[06-08|06:25:19.716] Announced block                          hash=cba1e8…affdff recipients=0 duration=6.930ms
+DEBUG[06-08|06:25:26.915] Synchronising with the network           peer=ed5e443b0d7e8831 eth=65 head=bdc3ad…c9fb07 td=917696 mode=branch
+DEBUG[06-08|06:25:26.915] Retrieving remote chain height           peer=ed5e443b0d7e8831
+DEBUG[06-08|06:25:26.915] Fetching batch of headers                id=ed5e443b0d7e8831 conn=inbound count=1 fromhash=bdc3ad…c9fb07 skip=0 reverse=false
+DEBUG[06-08|06:25:26.915] Waiting for head header timed out        peer=ed5e443b0d7e8831 elapsed=1m0s
+DEBUG[06-08|06:25:26.915] Synchronisation terminated               elapsed=1m0.000s
+WARN [06-08|06:25:26.915] Synchronisation failed, dropping peer    peer=ed5e443b0d7e8831 err=timeout
+DEBUG[06-08|06:25:26.915] Removing Ethereum peer                   peer=ed5e443b0d7e8831
+TRACE[06-08|06:25:26.915] Unregistering sync peer                  peer=ed5e443b0d7e8831
+DEBUG[06-08|06:25:26.915] Ethereum message handling failed         id=ed5e443b0d7e8831 conn=inbound err=EOF
+DEBUG[06-08|06:25:26.915] Removing p2p peer                        peercount=0 id=ed5e443b0d7e8831 duration=25.253s   req=false err="useless peer"
+INFO [06-08|06:25:26.915] Looking for peers                        peercount=0 tried=0 static=0
+TRACE[06-08|06:25:36.660] Accepted connection                      addr=127.0.0.1:37200
+DEBUG[06-08|06:25:36.662] Adding p2p peer                          peercount=1 id=ed5e443b0d7e8831 conn=inbound addr=127.0.0.1:37200 name=Geth/MyEth/v1.9.12-s...
+TRACE[06-08|06:25:36.662] Starting protocol eth/65                 id=ed5e443b0d7e8831 conn=inbound
+DEBUG[06-08|06:25:36.662] Ethereum peer connected                  id=ed5e443b0d7e8831 conn=inbound name=Geth/MyEth/v1.9.12-stable-5400f661/linux-amd64/go1.13.9
+TRACE[06-08|06:25:36.662] Registering sync peer                    peer=ed5e443b0d7e8831
+DEBUG[06-08|06:25:36.860] Current full block not old enough        number=7 hash=cba1e8…affdff delay=90000
+DEBUG[06-08|06:25:36.862] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[06-08|06:25:36.915] Synchronising with the network           peer=ed5e443b0d7e8831 eth=65 head=cba1e8…affdff td=1048960 mode=branch
+DEBUG[06-08|06:25:36.915] Retrieving remote chain height           peer=ed5e443b0d7e8831
+DEBUG[06-08|06:25:36.915] Fetching batch of headers                id=ed5e443b0d7e8831 conn=inbound count=1 fromhash=cba1e8…affdff skip=0 reverse=false
+TRACE[06-08|06:25:36.915] Filtering headers                        peer=ed5e443b0d7e8831 headers=1
+DEBUG[06-08|06:25:36.915] Failed to deliver headers                err="no sync active"
+DEBUG[06-08|06:25:38.624] Served eth_blockNumber                   reqid=13 t=22.321µs
+TRACE[06-08|06:25:38.624] Handled RPC response                     reqid=13 t=587ns
+DEBUG[06-08|06:25:45.830] Queued propagated block                  peer=ed5e443b0d7e8831 number=2 hash=d6df13…4577a0 queued=1
+DEBUG[06-08|06:25:45.831] Queued propagated block                  peer=ed5e443b0d7e8831 number=2 hash=d6df13…4577a0 queued=1
+DEBUG[06-08|06:25:46.915] Synchronising with the network           peer=ed5e443b0d7e8831 eth=65 head=cba1e8…affdff td=1048960 mode=branch
+DEBUG[06-08|06:25:46.915] Retrieving remote chain height           peer=ed5e443b0d7e8831
+DEBUG[06-08|06:25:46.915] Fetching batch of headers                id=ed5e443b0d7e8831 conn=inbound count=1 fromhash=cba1e8…affdff skip=0 reverse=false
+TRACE[06-08|06:25:46.915] Filtering headers                        peer=ed5e443b0d7e8831 headers=1
+DEBUG[06-08|06:25:46.915] Failed to deliver headers                err="no sync active"
+DEBUG[06-08|06:25:56.862] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[06-08|06:25:56.915] Synchronising with the network           peer=ed5e443b0d7e8831 eth=65 head=cba1e8…affdff td=1048960 mode=branch
+DEBUG[06-08|06:25:56.915] Retrieving remote chain height           peer=ed5e443b0d7e8831
+DEBUG[06-08|06:25:56.915] Fetching batch of headers                id=ed5e443b0d7e8831 conn=inbound count=1 fromhash=cba1e8…affdff skip=0 reverse=false
+TRACE[06-08|06:25:56.915] Filtering headers                        peer=ed5e443b0d7e8831 headers=1
+DEBUG[06-08|06:25:56.915] Failed to deliver headers                err="no sync active"
+DEBUG[06-08|06:25:58.185] Ethereum message handling failed         id=ed5e443b0d7e8831 conn=inbound err=EOF
+DEBUG[06-08|06:25:58.185] Removing Ethereum peer                   peer=ed5e443b0d7e8831
+TRACE[06-08|06:25:58.185] Unregistering sync peer                  peer=ed5e443b0d7e8831
+DEBUG[06-08|06:25:58.185] Removing p2p peer                        peercount=0 id=ed5e443b0d7e8831 duration=21.523s   req=true  err="disconnect requested"
+INFO [06-08|06:25:58.186] Looking for peers                        peercount=0 tried=0 static=0
+DEBUG[06-08|06:26:06.915] Waiting for head header timed out        peer=ed5e443b0d7e8831 elapsed=1m0s
+DEBUG[06-08|06:26:06.915] Synchronisation terminated               elapsed=1m0.000s
+WARN [06-08|06:26:06.915] Synchronisation failed, dropping peer    peer=ed5e443b0d7e8831 err=timeout
+DEBUG[06-08|06:26:12.793] Waiting for head header timed out        peer=ed5e443b0d7e8831 elapsed=1m0s
+DEBUG[06-08|06:26:12.793] Synchronisation terminated               elapsed=1m0.000s
+WARN [06-08|06:26:12.793] Synchronisation failed, dropping peer    peer=ed5e443b0d7e8831 err=timeout
+DEBUG[06-08|06:26:14.414] Waiting for head header timed out        peer=ed5e443b0d7e8831 elapsed=1m0s
+DEBUG[06-08|06:26:14.414] Synchronisation terminated               elapsed=1m0.000s
+WARN [06-08|06:26:14.414] Synchronisation failed, dropping peer    peer=ed5e443b0d7e8831 err=timeout
+DEBUG[06-08|06:26:16.226] Waiting for head header timed out        peer=ed5e443b0d7e8831 elapsed=1m0s
+DEBUG[06-08|06:26:16.227] Synchronisation terminated               elapsed=1m0.000s
+WARN [06-08|06:26:16.227] Synchronisation failed, dropping peer    peer=ed5e443b0d7e8831 err=timeout
+DEBUG[06-08|06:26:16.863] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[06-08|06:26:16.915] Waiting for head header timed out        peer=ed5e443b0d7e8831 elapsed=1m0s
+DEBUG[06-08|06:26:16.915] Synchronisation terminated               elapsed=1m0.000s
+WARN [06-08|06:26:16.915] Synchronisation failed, dropping peer    peer=ed5e443b0d7e8831 err=timeout
+DEBUG[06-08|06:26:19.709] Waiting for head header timed out        peer=ed5e443b0d7e8831 elapsed=1m0s
+DEBUG[06-08|06:26:19.710] Synchronisation terminated               elapsed=1m0.000s
+WARN [06-08|06:26:19.710] Synchronisation failed, dropping peer    peer=ed5e443b0d7e8831 err=timeout
+TRACE[06-08|06:26:20.746] Accepted connection                      addr=127.0.0.1:37202
+DEBUG[06-08|06:26:20.751] Adding p2p peer                          peercount=1 id=ed5e443b0d7e8831 conn=inbound addr=127.0.0.1:37202 name=Geth/MyEth/v1.9.12-s...
+TRACE[06-08|06:26:20.751] Starting protocol eth/65                 id=ed5e443b0d7e8831 conn=inbound
+DEBUG[06-08|06:26:20.751] Ethereum peer connected                  id=ed5e443b0d7e8831 conn=inbound name=Geth/MyEth/v1.9.12-stable-5400f661/linux-amd64/go1.13.9
+INFO [06-08|06:26:20.751] Looking for peers                        peercount=1 tried=0 static=0
+TRACE[06-08|06:26:20.752] Registering sync peer                    peer=ed5e443b0d7e8831
+DEBUG[06-08|06:26:25.829] Queued propagated block                  peer=ed5e443b0d7e8831 number=2 hash=d6df13…4577a0 queued=1
+DEBUG[06-08|06:26:25.829] Queued propagated block                  peer=ed5e443b0d7e8831 number=2 hash=d6df13…4577a0 queued=1
+TRACE[06-08|06:26:26.329] Fetching scheduled headers               peer=ed5e443b0d7e8831 list="[[93 48 221 244 186 184 98 42 213 130 138 51 186 55 250 131 15 200 39 236 91 15 18 51 31 94 94 136 32 213 17 158]]"
+DEBUG[06-08|06:26:26.330] Fetching single header                   id=ed5e443b0d7e8831 conn=inbound hash=5d30dd…d5119e
+TRACE[06-08|06:26:26.330] Filtering headers                        peer=ed5e443b0d7e8831 headers=1
+TRACE[06-08|06:26:26.330] Block empty, skipping body retrieval     peer=ed5e443b0d7e8831 number=12 hash=5d30dd…d5119e
+DEBUG[06-08|06:26:26.330] Queued propagated block                  peer=ed5e443b0d7e8831 number=12 hash=5d30dd…d5119e queued=1
+DEBUG[06-08|06:26:26.915] Synchronising with the network           peer=ed5e443b0d7e8831 eth=65 head=5d30dd…d5119e td=1704960 mode=branch
+DEBUG[06-08|06:26:26.915] Retrieving remote chain height           peer=ed5e443b0d7e8831
+DEBUG[06-08|06:26:26.915] Fetching batch of headers                id=ed5e443b0d7e8831 conn=inbound count=1 fromhash=5d30dd…d5119e skip=0 reverse=false
+DEBUG[06-08|06:26:26.915] Waiting for head header timed out        peer=ed5e443b0d7e8831 elapsed=1m0s
+DEBUG[06-08|06:26:26.915] Synchronisation terminated               elapsed=1m0.000s
+WARN [06-08|06:26:26.915] Synchronisation failed, dropping peer    peer=ed5e443b0d7e8831 err=timeout
+DEBUG[06-08|06:26:26.915] Removing Ethereum peer                   peer=ed5e443b0d7e8831
+TRACE[06-08|06:26:26.915] Unregistering sync peer                  peer=ed5e443b0d7e8831
+DEBUG[06-08|06:26:26.915] Ethereum message handling failed         id=ed5e443b0d7e8831 conn=inbound err=EOF
+DEBUG[06-08|06:26:26.915] Removing p2p peer                        peercount=0 id=ed5e443b0d7e8831 duration=6.164s    req=false err="useless peer"
+DEBUG[06-08|06:26:36.860] Current full block not old enough        number=7  hash=cba1e8…affdff delay=90000
+DEBUG[06-08|06:26:36.863] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[06-08|06:26:36.915] Waiting for head header timed out        peer=ed5e443b0d7e8831 elapsed=1m0s
+DEBUG[06-08|06:26:36.915] Synchronisation terminated               elapsed=1m0.000s
+WARN [06-08|06:26:36.915] Synchronisation failed, dropping peer    peer=ed5e443b0d7e8831 err=timeout
+DEBUG[06-08|06:26:46.915] Waiting for head header timed out        peer=ed5e443b0d7e8831 elapsed=1m0s
+DEBUG[06-08|06:26:46.915] Synchronisation terminated               elapsed=1m0.000s
+WARN [06-08|06:26:46.915] Synchronisation failed, dropping peer    peer=ed5e443b0d7e8831 err=timeout
+INFO [06-08|06:26:55.689] HTTP endpoint closed                     url=http://127.0.0.1:8541
+DEBUG[06-08|06:26:55.689] RPC server shutting down 
+INFO [06-08|06:26:55.689] IPC endpoint closed                      url=/home/zc/geth_test1/gethdata/geth.ipc
+DEBUG[06-08|06:26:55.689] RPC server shutting down 
+INFO [06-08|06:26:55.689] Writing cached state to disk             block=7 hash=cba1e8…affdff root=03137d…d9d603
+INFO [06-08|06:26:55.690] Persisted trie from memory database      nodes=2 size=294.00B time=227.912µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=9 livesize=1.15KiB
+INFO [06-08|06:26:55.690] Writing cached state to disk             block=6 hash=bdc3ad…c9fb07 root=6b808b…a0ae06
+INFO [06-08|06:26:55.690] Persisted trie from memory database      nodes=2 size=294.00B time=71.815µs  gcnodes=0 gcsize=0.00B gctime=0s livenodes=7 livesize=882.00B
+DEBUG[06-08|06:26:55.690] Dereferenced trie from memory database   nodes=2 size=294.00B time=8.561µs   gcnodes=2 gcsize=294.00B gctime=7.902µs livenodes=5 livesize=588.00B
+DEBUG[06-08|06:26:55.690] Dereferenced trie from memory database   nodes=2 size=294.00B time=5.866µs   gcnodes=4 gcsize=588.00B gctime=13.515µs livenodes=3 livesize=294.00B
+DEBUG[06-08|06:26:55.690] Dereferenced trie from memory database   nodes=2 size=294.00B time=5.381µs   gcnodes=6 gcsize=882.00B gctime=18.616µs livenodes=1 livesize=0.00B
+DEBUG[06-08|06:26:55.690] Dereferenced trie from memory database   nodes=0 size=0.00B   time=1.817µs   gcnodes=6 gcsize=882.00B gctime=20.152µs livenodes=1 livesize=0.00B
+DEBUG[06-08|06:26:55.690] Dereferenced trie from memory database   nodes=0 size=0.00B   time=1.804µs   gcnodes=6 gcsize=882.00B gctime=21.706µs livenodes=1 livesize=0.00B
+INFO [06-08|06:26:55.690] Writing cached regionstate to disk       block=7 hash=cba1e8…affdff regionroot=4caf93…2d0509
+INFO [06-08|06:26:55.690] Persisted gtrie from memory database     nodes=0 size=0.00B   time=4.53µs    gcnodes=0 gcsize=0.00B   gctime=0s       livenodes=1 livesize=0.00B
+INFO [06-08|06:26:55.690] Writing cached regionstate to disk       block=6 hash=bdc3ad…c9fb07 regionroot=4caf93…2d0509
+INFO [06-08|06:26:55.690] Persisted gtrie from memory database     nodes=0 size=0.00B   time=2.574µs   gcnodes=0 gcsize=0.00B   gctime=0s       livenodes=1 livesize=0.00B
+DEBUG[06-08|06:26:55.690] Dereferenced trie from memory database   nodes=0 size=0.00B   time=2.049µs   gcnodes=0 gcsize=0.00B   gctime=1.502µs  livenodes=1 livesize=0.00B
+DEBUG[06-08|06:26:55.691] Dereferenced trie from memory database   nodes=0 size=0.00B   time=709ns     gcnodes=0 gcsize=0.00B   gctime=1.958µs  livenodes=1 livesize=0.00B
+DEBUG[06-08|06:26:55.691] Dereferenced trie from memory database   nodes=0 size=0.00B   time=726ns     gcnodes=0 gcsize=0.00B   gctime=2.434µs  livenodes=1 livesize=0.00B
+DEBUG[06-08|06:26:55.691] Dereferenced trie from memory database   nodes=0 size=0.00B   time=695ns     gcnodes=0 gcsize=0.00B   gctime=2.876µs  livenodes=1 livesize=0.00B
+DEBUG[06-08|06:26:55.691] Dereferenced trie from memory database   nodes=0 size=0.00B   time=682ns     gcnodes=0 gcsize=0.00B   gctime=3.303µs  livenodes=1 livesize=0.00B
+INFO [06-08|06:26:55.691] Blockchain manager stopped 
+TRACE[06-08|06:26:55.691] Ethash remote sealer is exiting 
+INFO [06-08|06:26:55.691] Stopping Ethereum protocol 
+INFO [06-08|06:26:55.691] Ethereum protocol stopped 
+INFO [06-08|06:26:55.691] Transaction pool stopped 
+DEBUG[06-08|06:26:55.691] Reset ancient limit to zero 
+DEBUG[06-08|06:26:55.691] Read error                               err="accept tcp [::]:30301: use of closed network connection"
+DEBUG[06-08|06:26:55.691] Deleting port mapping                    proto=tcp extport=30301 intport=30301 interface=NAT-PMP(192.168.1.1)
+TRACE[06-08|06:26:55.691] P2P networking is spinning down 

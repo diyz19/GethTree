@@ -1,0 +1,8 @@
+
+admin.peers
+miner.stop()
+admin.peers
+eth.getCurrentHeads("w11")
+admin.peers
+eth.getCurrentHeads("w11")
+eth.getCurrentHeads("w12")
